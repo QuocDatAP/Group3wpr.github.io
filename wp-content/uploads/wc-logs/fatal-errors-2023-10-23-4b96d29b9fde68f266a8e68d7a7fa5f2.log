@@ -1,0 +1,141 @@
+2023-10-23T02:45:09+00:00 CRITICAL Uncaught Error: Undefined constant "asdsa" in D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website\woocommerce\content-product.php:26
+Stack trace:
+#0 D:\wordpress-6.2.2-vi\wordpress\wp-includes\template.php(787): require()
+#1 D:\wordpress-6.2.2-vi\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('D:\\wordpress-6....', false)
+#2 D:\wordpress-6.2.2-vi\wordpress\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-products.php(660): wc_get_template_part('content', 'product')
+#3 D:\wordpress-6.2.2-vi\wordpress\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-products.php(100): WC_Shortcode_Products->product_loop()
+#4 D:\wordpress-6.2.2-vi\wordpress\wp-content\plugins\woocommerce\includes\class-wc-template-loader.php(600): WC_Shortcode_Products->get_content()
+#5 D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php(310): WC_Template_Loader::unsupported_theme_shop_content_filter('<p>[countdown_t...')
+#6 D:\wordpress-6.2.2-vi\wordpress\wp-includes\plugin.php(205): WP_Hook->apply_filters('<p>[countdown_t...', Array)
+#7 D:\wordpress-6.2.2-vi\wordpress\wp-includes\post-template.php(256): apply_filters('the_content', '<!-- wp:shortco...')
+#8 D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website\page.php(45): the_content()
+#9 D:\wordpress-6.2.2-vi\wordpress\wp-includes\template-loader.php(106): include('D:\\wordpress-6....')
+#10 D:\wordpress-6.2.2-vi\wordpress\wp-blog-header.php(19): require_once('D:\\wordpress-6....')
+#11 D:\wordpress-6.2.2-vi\wordpress\index.php(17): require('D:\\wordpress-6....')
+#12 {main}
+  thrown in D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website\woocommerce\content-product.php on line 26
+
+2023-10-23T10:23:02+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "open_sidebar_get_grid" not found or invalid function name in D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#1 D:\wordpress-6.2.2-vi\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 D:\wordpress-6.2.2-vi\wordpress\wp-content\plugins\woocommerce\templates\archive-product.php(29): do_action('woocommerce_bef...')
+#3 D:\wordpress-6.2.2-vi\wordpress\wp-includes\template-loader.php(106): include('D:\\wordpress-6....')
+#4 D:\wordpress-6.2.2-vi\wordpress\wp-blog-header.php(19): require_once('D:\\wordpress-6....')
+#5 D:\wordpress-6.2.2-vi\wordpress\index.php(17): require('D:\\wordpress-6....')
+#6 {main}
+  thrown in D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php on line 310
+
+2023-10-23T10:24:05+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "open_sidebar_get_grid" not found or invalid function name in D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#1 D:\wordpress-6.2.2-vi\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 D:\wordpress-6.2.2-vi\wordpress\wp-content\plugins\woocommerce\templates\archive-product.php(29): do_action('woocommerce_bef...')
+#3 D:\wordpress-6.2.2-vi\wordpress\wp-includes\template-loader.php(106): include('D:\\wordpress-6....')
+#4 D:\wordpress-6.2.2-vi\wordpress\wp-blog-header.php(19): require_once('D:\\wordpress-6....')
+#5 D:\wordpress-6.2.2-vi\wordpress\index.php(17): require('D:\\wordpress-6....')
+#6 {main}
+  thrown in D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php on line 310
+
+2023-10-23T10:42:48+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "simp_bootstrap_theme_add_anchor_links" not found or invalid function name in D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php:312
+Stack trace:
+#0 D:\wordpress-6.2.2-vi\wordpress\wp-includes\plugin.php(205): WP_Hook->apply_filters(Array, Array)
+#1 D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-walker-nav-menu.php(255): apply_filters('nav_menu_link_a...', Array, Object(WP_Post), Object(stdClass), 0)
+#2 D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-walker.php(147): Walker_Nav_Menu->start_el('<li id="menu-it...', Object(WP_Post), 0, Object(stdClass))
+#3 D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-walker.php(247): Walker->display_element(Object(WP_Post), Array, 0, 0, Array, '<li id="menu-it...')
+#4 D:\wordpress-6.2.2-vi\wordpress\wp-includes\nav-menu-template.php(616): Walker->walk(Array, 0, Object(stdClass))
+#5 D:\wordpress-6.2.2-vi\wordpress\wp-includes\nav-menu-template.php(236): walk_nav_menu_tree(Array, 0, Object(stdClass))
+#6 D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website\header.php(24): wp_nav_menu(Object(stdClass))
+#7 D:\wordpress-6.2.2-vi\wordpress\wp-includes\template.php(785): require_once('D:\\wordpress-6....')
+#8 D:\wordpress-6.2.2-vi\wordpress\wp-includes\template.php(720): load_template('D:\\wordpress-6....', true, Array)
+#9 D:\wordpress-6.2.2-vi\wordpress\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#10 D:\wordpress-6.2.2-vi\wordpress\wp-content\plugins\woocommerce\templates\archive-product.php(20): get_header('shop')
+#11 D:\wordpress-6.2.2-vi\wordpress\wp-includes\template-loader.php(106): include('D:\\wordpress-6....')
+#12 D:\wordpress-6.2.2-vi\wordpress\wp-blog-header.php(19): require_once('D:\\wordpress-6....')
+#13 D:\wordpress-6.2.2-vi\wordpress\index.php(17): require('D:\\wordpress-6....')
+#14 {main}
+  thrown in D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php on line 312
+
+2023-10-23T10:43:07+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function simple_bootstrap_theme_add_anchor_links(), 2 passed in D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php on line 312 and exactly 3 expected in D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website\functions.php:66
+Stack trace:
+#0 D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php(312): simple_bootstrap_theme_add_anchor_links(Array, Object(WP_Post))
+#1 D:\wordpress-6.2.2-vi\wordpress\wp-includes\plugin.php(205): WP_Hook->apply_filters(Array, Array)
+#2 D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-walker-nav-menu.php(255): apply_filters('nav_menu_link_a...', Array, Object(WP_Post), Object(stdClass), 0)
+#3 D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-walker.php(147): Walker_Nav_Menu->start_el('<li id="menu-it...', Object(WP_Post), 0, Object(stdClass))
+#4 D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-walker.php(247): Walker->display_element(Object(WP_Post), Array, 0, 0, Array, '<li id="menu-it...')
+#5 D:\wordpress-6.2.2-vi\wordpress\wp-includes\nav-menu-template.php(616): Walker->walk(Array, 0, Object(stdClass))
+#6 D:\wordpress-6.2.2-vi\wordpress\wp-includes\nav-menu-template.php(236): walk_nav_menu_tree(Array, 0, Object(stdClass))
+#7 D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website\header.php(24): wp_nav_menu(Object(stdClass))
+#8 D:\wordpress-6.2.2-vi\wordpress\wp-includes\template.php(785): require_once('D:\\wordpress-6....')
+#9 D:\wordpress-6.2.2-vi\wordpress\wp-includes\template.php(720): load_template('D:\\wordpress-6....', true, Array)
+#10 D:\wordpress-6.2.2-vi\wordpress\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#11 D:\wordpress-6.2.2-vi\wordpress\wp-content\plugins\woocommerce\templates\archive-product.php(20): get_header('shop')
+#12 D:\wordpress-6.2.2-vi\wordpress\wp-includes\template-loader.php(106): include('D:\\wordpress-6....')
+#13 D:\wordpress-6.2.2-vi\wordpress\wp-blog-header.php(19): require_once('D:\\wordpress-6....')
+#14 D:\wordpress-6.2.2-vi\wordpress\index.php(17): require('D:\\wordpress-6....')
+#15 {main}
+  thrown in D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website\functions.php on line 66
+
+2023-10-23T10:43:18+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function simple_bootstrap_theme_add_anchor_links(), 1 passed in D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php on line 312 and exactly 3 expected in D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website\functions.php:66
+Stack trace:
+#0 D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php(312): simple_bootstrap_theme_add_anchor_links(Array)
+#1 D:\wordpress-6.2.2-vi\wordpress\wp-includes\plugin.php(205): WP_Hook->apply_filters(Array, Array)
+#2 D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-walker-nav-menu.php(255): apply_filters('nav_menu_link_a...', Array, Object(WP_Post), Object(stdClass), 0)
+#3 D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-walker.php(147): Walker_Nav_Menu->start_el('<li id="menu-it...', Object(WP_Post), 0, Object(stdClass))
+#4 D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-walker.php(247): Walker->display_element(Object(WP_Post), Array, 0, 0, Array, '<li id="menu-it...')
+#5 D:\wordpress-6.2.2-vi\wordpress\wp-includes\nav-menu-template.php(616): Walker->walk(Array, 0, Object(stdClass))
+#6 D:\wordpress-6.2.2-vi\wordpress\wp-includes\nav-menu-template.php(236): walk_nav_menu_tree(Array, 0, Object(stdClass))
+#7 D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website\header.php(24): wp_nav_menu(Object(stdClass))
+#8 D:\wordpress-6.2.2-vi\wordpress\wp-includes\template.php(785): require_once('D:\\wordpress-6....')
+#9 D:\wordpress-6.2.2-vi\wordpress\wp-includes\template.php(720): load_template('D:\\wordpress-6....', true, Array)
+#10 D:\wordpress-6.2.2-vi\wordpress\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#11 D:\wordpress-6.2.2-vi\wordpress\wp-content\plugins\woocommerce\templates\archive-product.php(20): get_header('shop')
+#12 D:\wordpress-6.2.2-vi\wordpress\wp-includes\template-loader.php(106): include('D:\\wordpress-6....')
+#13 D:\wordpress-6.2.2-vi\wordpress\wp-blog-header.php(19): require_once('D:\\wordpress-6....')
+#14 D:\wordpress-6.2.2-vi\wordpress\index.php(17): require('D:\\wordpress-6....')
+#15 {main}
+  thrown in D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website\functions.php on line 66
+
+2023-10-23T10:44:55+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function simple_bootstrap_theme_add_anchor_links(), 2 passed in D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php on line 312 and exactly 3 expected in D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website\functions.php:66
+Stack trace:
+#0 D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php(312): simple_bootstrap_theme_add_anchor_links(Array, Object(WP_Post))
+#1 D:\wordpress-6.2.2-vi\wordpress\wp-includes\plugin.php(205): WP_Hook->apply_filters(Array, Array)
+#2 D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-walker-nav-menu.php(255): apply_filters('nav_menu_link_a...', Array, Object(WP_Post), Object(stdClass), 0)
+#3 D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-walker.php(147): Walker_Nav_Menu->start_el('<li id="menu-it...', Object(WP_Post), 0, Object(stdClass))
+#4 D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-walker.php(247): Walker->display_element(Object(WP_Post), Array, 0, 0, Array, '<li id="menu-it...')
+#5 D:\wordpress-6.2.2-vi\wordpress\wp-includes\nav-menu-template.php(616): Walker->walk(Array, 0, Object(stdClass))
+#6 D:\wordpress-6.2.2-vi\wordpress\wp-includes\nav-menu-template.php(236): walk_nav_menu_tree(Array, 0, Object(stdClass))
+#7 D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website\header.php(24): wp_nav_menu(Object(stdClass))
+#8 D:\wordpress-6.2.2-vi\wordpress\wp-includes\template.php(785): require_once('D:\\wordpress-6....')
+#9 D:\wordpress-6.2.2-vi\wordpress\wp-includes\template.php(720): load_template('D:\\wordpress-6....', true, Array)
+#10 D:\wordpress-6.2.2-vi\wordpress\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#11 D:\wordpress-6.2.2-vi\wordpress\wp-content\plugins\woocommerce\templates\archive-product.php(20): get_header('shop')
+#12 D:\wordpress-6.2.2-vi\wordpress\wp-includes\template-loader.php(106): include('D:\\wordpress-6....')
+#13 D:\wordpress-6.2.2-vi\wordpress\wp-blog-header.php(19): require_once('D:\\wordpress-6....')
+#14 D:\wordpress-6.2.2-vi\wordpress\index.php(17): require('D:\\wordpress-6....')
+#15 {main}
+  thrown in D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website\functions.php on line 66
+
+2023-10-23T10:49:49+00:00 CRITICAL Uncaught Error: Call to a member function get() on bool in D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website\functions.php:34
+Stack trace:
+#0 D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php(310): my_theme_enqueue_styles('')
+#1 D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wordpress-6.2.2-vi\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 D:\wordpress-6.2.2-vi\wordpress\wp-includes\script-loader.php(2225): do_action('wp_enqueue_scri...')
+#4 D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php(310): wp_enqueue_scripts('')
+#5 D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#6 D:\wordpress-6.2.2-vi\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 D:\wordpress-6.2.2-vi\wordpress\wp-includes\general-template.php(3053): do_action('wp_head')
+#8 D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website\header.php(7): wp_head()
+#9 D:\wordpress-6.2.2-vi\wordpress\wp-includes\template.php(785): require_once('D:\\wordpress-6....')
+#10 D:\wordpress-6.2.2-vi\wordpress\wp-includes\template.php(720): load_template('D:\\wordpress-6....', true, Array)
+#11 D:\wordpress-6.2.2-vi\wordpress\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#12 D:\wordpress-6.2.2-vi\wordpress\wp-content\plugins\woocommerce\templates\archive-product.php(20): get_header('shop')
+#13 D:\wordpress-6.2.2-vi\wordpress\wp-includes\template-loader.php(106): include('D:\\wordpress-6....')
+#14 D:\wordpress-6.2.2-vi\wordpress\wp-blog-header.php(19): require_once('D:\\wordpress-6....')
+#15 D:\wordpress-6.2.2-vi\wordpress\index.php(17): require('D:\\wordpress-6....')
+#16 {main}
+  thrown in D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website\functions.php on line 34
+
+2023-10-23T13:37:34+00:00 CRITICAL syntax error, unexpected token "}" in D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website\functions.php on line 29
+

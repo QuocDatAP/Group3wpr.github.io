@@ -1,0 +1,20 @@
+2023-11-02T11:39:48+00:00 CRITICAL Uncaught Error: Failed opening required 'D:\wordpress-6.2.2-vi\wordpress/wp-content/themes/website/widgets/widgets_index.php' (include_path='.;C:\php\pear') in D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website\functions.php:137
+Stack trace:
+#0 D:\wordpress-6.2.2-vi\wordpress\wp-settings.php(600): include()
+#1 D:\wordpress-6.2.2-vi\wordpress\wp-config.php(96): require_once('D:\\wordpress-6....')
+#2 D:\wordpress-6.2.2-vi\wordpress\wp-load.php(50): require_once('D:\\wordpress-6....')
+#3 D:\wordpress-6.2.2-vi\wordpress\wp-blog-header.php(13): require_once('D:\\wordpress-6....')
+#4 D:\wordpress-6.2.2-vi\wordpress\index.php(17): require('D:\\wordpress-6....')
+#5 {main}
+  thrown in D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website\functions.php on line 137
+
+2023-11-02T11:39:56+00:00 CRITICAL Uncaught Error: Failed opening required 'D:\wordpress-6.2.2-vi\wordpress/wp-content/themes/website/widgets/widgets_index.php' (include_path='.;C:\php\pear') in D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website\functions.php:137
+Stack trace:
+#0 D:\wordpress-6.2.2-vi\wordpress\wp-settings.php(600): include()
+#1 D:\wordpress-6.2.2-vi\wordpress\wp-config.php(96): require_once('D:\\wordpress-6....')
+#2 D:\wordpress-6.2.2-vi\wordpress\wp-load.php(50): require_once('D:\\wordpress-6....')
+#3 D:\wordpress-6.2.2-vi\wordpress\wp-blog-header.php(13): require_once('D:\\wordpress-6....')
+#4 D:\wordpress-6.2.2-vi\wordpress\index.php(17): require('D:\\wordpress-6....')
+#5 {main}
+  thrown in D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website\functions.php on line 137
+

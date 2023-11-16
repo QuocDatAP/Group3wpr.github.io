@@ -1,0 +1,15 @@
+.countdown-sale-discount {
+    font-weight: bold;
+}
+
+.countdown-sale-timer {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+
+.countdown-sale-message {
+    font-size: 16px;
+    font-weight: bold;
+    color: #999;
+}

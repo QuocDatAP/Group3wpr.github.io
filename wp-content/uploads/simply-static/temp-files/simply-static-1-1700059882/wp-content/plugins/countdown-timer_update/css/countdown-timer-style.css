@@ -1,0 +1,44 @@
+.countdown-timer {
+    font-size: 24px;
+    font-weight: bold;
+}
+.countdown-timer {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #333333;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.countdown-timer span {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.countdown-timer span:last-child {
+    margin-right: 0;
+}
+.countdown-timer {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #333333;
+    padding: 10px 15px;
+    border-radius: 5px;
+    opacity: 0; /* Ẩn countdown ban đầu */
+    animation: fade-in 1s ease-in-out forwards;
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0; /* Bắt đầu từ trạng thái ẩn */
+    }
+    100% {
+        opacity: 1; /* Kết thúc với trạng thái hiển thị */
+    }
+}
+
+

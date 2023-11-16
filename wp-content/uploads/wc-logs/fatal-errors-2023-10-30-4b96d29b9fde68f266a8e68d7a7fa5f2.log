@@ -1,0 +1,100 @@
+2023-10-30T09:20:55+00:00 CRITICAL Uncaught Error: Call to undefined function twentyseventeen_unique_id() in D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website\searchform.php:13
+Stack trace:
+#0 D:\wordpress-6.2.2-vi\wordpress\wp-includes\general-template.php(310): require()
+#1 D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website\front-page.php(16): get_search_form()
+#2 D:\wordpress-6.2.2-vi\wordpress\wp-includes\template-loader.php(106): include('D:\\wordpress-6....')
+#3 D:\wordpress-6.2.2-vi\wordpress\wp-blog-header.php(19): require_once('D:\\wordpress-6....')
+#4 D:\wordpress-6.2.2-vi\wordpress\index.php(17): require('D:\\wordpress-6....')
+#5 {main}
+  thrown in D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website\searchform.php on line 13
+
+2023-10-30T09:21:19+00:00 CRITICAL Uncaught Error: Call to undefined function website_unique_id() in D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website\searchform.php:13
+Stack trace:
+#0 D:\wordpress-6.2.2-vi\wordpress\wp-includes\general-template.php(310): require()
+#1 D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website\front-page.php(16): get_search_form()
+#2 D:\wordpress-6.2.2-vi\wordpress\wp-includes\template-loader.php(106): include('D:\\wordpress-6....')
+#3 D:\wordpress-6.2.2-vi\wordpress\wp-blog-header.php(19): require_once('D:\\wordpress-6....')
+#4 D:\wordpress-6.2.2-vi\wordpress\index.php(17): require('D:\\wordpress-6....')
+#5 {main}
+  thrown in D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website\searchform.php on line 13
+
+2023-10-30T09:22:40+00:00 CRITICAL Uncaught Error: Call to undefined function twentyseventeen_get_svg() in D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website\searchform.php:23
+Stack trace:
+#0 D:\wordpress-6.2.2-vi\wordpress\wp-includes\general-template.php(310): require()
+#1 D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website\front-page.php(16): get_search_form()
+#2 D:\wordpress-6.2.2-vi\wordpress\wp-includes\template-loader.php(106): include('D:\\wordpress-6....')
+#3 D:\wordpress-6.2.2-vi\wordpress\wp-blog-header.php(19): require_once('D:\\wordpress-6....')
+#4 D:\wordpress-6.2.2-vi\wordpress\index.php(17): require('D:\\wordpress-6....')
+#5 {main}
+  thrown in D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website\searchform.php on line 23
+
+2023-10-30T09:24:57+00:00 CRITICAL Uncaught Error: Call to undefined function twentyseventeen_get_svg() in D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website\searchform.php:23
+Stack trace:
+#0 D:\wordpress-6.2.2-vi\wordpress\wp-includes\general-template.php(310): require()
+#1 D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website\front-page.php(16): get_search_form()
+#2 D:\wordpress-6.2.2-vi\wordpress\wp-includes\template-loader.php(106): include('D:\\wordpress-6....')
+#3 D:\wordpress-6.2.2-vi\wordpress\wp-blog-header.php(19): require_once('D:\\wordpress-6....')
+#4 D:\wordpress-6.2.2-vi\wordpress\index.php(17): require('D:\\wordpress-6....')
+#5 {main}
+  thrown in D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website\searchform.php on line 23
+
+2023-10-30T09:36:12+00:00 CRITICAL Uncaught Error: Call to undefined function twentyseventeen_unique_id() in D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website\searchform.php:2
+Stack trace:
+#0 D:\wordpress-6.2.2-vi\wordpress\wp-includes\general-template.php(310): require()
+#1 D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website\front-page.php(16): get_search_form()
+#2 D:\wordpress-6.2.2-vi\wordpress\wp-includes\template-loader.php(106): include('D:\\wordpress-6....')
+#3 D:\wordpress-6.2.2-vi\wordpress\wp-blog-header.php(19): require_once('D:\\wordpress-6....')
+#4 D:\wordpress-6.2.2-vi\wordpress\index.php(17): require('D:\\wordpress-6....')
+#5 {main}
+  thrown in D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website\searchform.php on line 2
+
+2023-10-30T09:36:37+00:00 CRITICAL Uncaught Error: Call to undefined function twentyseventeen_unique_id() in D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website\searchform.php:2
+Stack trace:
+#0 D:\wordpress-6.2.2-vi\wordpress\wp-includes\general-template.php(310): require()
+#1 D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website\front-page.php(16): get_search_form()
+#2 D:\wordpress-6.2.2-vi\wordpress\wp-includes\template-loader.php(106): include('D:\\wordpress-6....')
+#3 D:\wordpress-6.2.2-vi\wordpress\wp-blog-header.php(19): require_once('D:\\wordpress-6....')
+#4 D:\wordpress-6.2.2-vi\wordpress\index.php(17): require('D:\\wordpress-6....')
+#5 {main}
+  thrown in D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website\searchform.php on line 2
+
+2023-10-30T09:37:50+00:00 CRITICAL Uncaught Error: Call to undefined function twentyseventeen_unique_id() in D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website\searchform.php:2
+Stack trace:
+#0 D:\wordpress-6.2.2-vi\wordpress\wp-includes\general-template.php(310): require()
+#1 D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website\front-page.php(16): get_search_form()
+#2 D:\wordpress-6.2.2-vi\wordpress\wp-includes\template-loader.php(106): include('D:\\wordpress-6....')
+#3 D:\wordpress-6.2.2-vi\wordpress\wp-blog-header.php(19): require_once('D:\\wordpress-6....')
+#4 D:\wordpress-6.2.2-vi\wordpress\index.php(17): require('D:\\wordpress-6....')
+#5 {main}
+  thrown in D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website\searchform.php on line 2
+
+2023-10-30T13:25:58+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_contents_count() on null in D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website\functions.php:100
+Stack trace:
+#0 D:\wordpress-6.2.2-vi\wordpress\wp-settings.php(600): include()
+#1 D:\wordpress-6.2.2-vi\wordpress\wp-config.php(96): require_once('D:\\wordpress-6....')
+#2 D:\wordpress-6.2.2-vi\wordpress\wp-load.php(50): require_once('D:\\wordpress-6....')
+#3 D:\wordpress-6.2.2-vi\wordpress\wp-admin\admin-ajax.php(22): require_once('D:\\wordpress-6....')
+#4 {main}
+  thrown in D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website\functions.php on line 100
+
+2023-10-30T13:27:59+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_contents_count() on null in D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website\functions.php:100
+Stack trace:
+#0 D:\wordpress-6.2.2-vi\wordpress\wp-settings.php(600): include()
+#1 D:\wordpress-6.2.2-vi\wordpress\wp-config.php(96): require_once('D:\\wordpress-6....')
+#2 D:\wordpress-6.2.2-vi\wordpress\wp-load.php(50): require_once('D:\\wordpress-6....')
+#3 D:\wordpress-6.2.2-vi\wordpress\wp-admin\admin-ajax.php(22): require_once('D:\\wordpress-6....')
+#4 {main}
+  thrown in D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website\functions.php on line 100
+
+2023-10-30T15:22:11+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_url() on null in D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website\header.php:34
+Stack trace:
+#0 D:\wordpress-6.2.2-vi\wordpress\wp-includes\template.php(785): require_once()
+#1 D:\wordpress-6.2.2-vi\wordpress\wp-includes\template.php(720): load_template('D:\\wordpress-6....', true, Array)
+#2 D:\wordpress-6.2.2-vi\wordpress\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website\page.php(1): get_header()
+#4 D:\wordpress-6.2.2-vi\wordpress\wp-includes\template-loader.php(106): include('D:\\wordpress-6....')
+#5 D:\wordpress-6.2.2-vi\wordpress\wp-blog-header.php(19): require_once('D:\\wordpress-6....')
+#6 D:\wordpress-6.2.2-vi\wordpress\index.php(17): require('D:\\wordpress-6....')
+#7 {main}
+  thrown in D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website\header.php on line 34
+

@@ -1,0 +1,253 @@
+2023-11-07T09:59:15+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: string - string in D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website2\woocommerce\loop\sale-flash.php:23
+Stack trace:
+#0 D:\wordpress-6.2.2-vi\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 D:\wordpress-6.2.2-vi\wordpress\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1422): wc_get_template('loop/sale-flash...')
+#2 D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php(310): woocommerce_show_product_loop_sale_flash('')
+#3 D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#4 D:\wordpress-6.2.2-vi\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website2\woocommerce\content-product.php(43): do_action('woocommerce_bef...')
+#6 D:\wordpress-6.2.2-vi\wordpress\wp-includes\template.php(787): require('D:\\wordpress-6....')
+#7 D:\wordpress-6.2.2-vi\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('D:\\wordpress-6....', false)
+#8 D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website2\woocommerce\archive-product.php(70): wc_get_template_part('content', 'product')
+#9 D:\wordpress-6.2.2-vi\wordpress\wp-includes\template-loader.php(106): include('D:\\wordpress-6....')
+#10 D:\wordpress-6.2.2-vi\wordpress\wp-blog-header.php(19): require_once('D:\\wordpress-6....')
+#11 D:\wordpress-6.2.2-vi\wordpress\index.php(17): require('D:\\wordpress-6....')
+#12 {main}
+  thrown in D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website2\woocommerce\loop\sale-flash.php on line 23
+
+2023-11-07T09:59:55+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: string - string in D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website2\woocommerce\loop\sale-flash.php:23
+Stack trace:
+#0 D:\wordpress-6.2.2-vi\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 D:\wordpress-6.2.2-vi\wordpress\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1422): wc_get_template('loop/sale-flash...')
+#2 D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php(310): woocommerce_show_product_loop_sale_flash('')
+#3 D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#4 D:\wordpress-6.2.2-vi\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website2\woocommerce\content-product.php(43): do_action('woocommerce_bef...')
+#6 D:\wordpress-6.2.2-vi\wordpress\wp-includes\template.php(787): require('D:\\wordpress-6....')
+#7 D:\wordpress-6.2.2-vi\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('D:\\wordpress-6....', false)
+#8 D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website2\woocommerce\archive-product.php(70): wc_get_template_part('content', 'product')
+#9 D:\wordpress-6.2.2-vi\wordpress\wp-includes\template-loader.php(106): include('D:\\wordpress-6....')
+#10 D:\wordpress-6.2.2-vi\wordpress\wp-blog-header.php(19): require_once('D:\\wordpress-6....')
+#11 D:\wordpress-6.2.2-vi\wordpress\index.php(17): require('D:\\wordpress-6....')
+#12 {main}
+  thrown in D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website2\woocommerce\loop\sale-flash.php on line 23
+
+2023-11-07T10:00:18+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: string - string in D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website2\woocommerce\loop\sale-flash.php:23
+Stack trace:
+#0 D:\wordpress-6.2.2-vi\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 D:\wordpress-6.2.2-vi\wordpress\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1422): wc_get_template('loop/sale-flash...')
+#2 D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php(310): woocommerce_show_product_loop_sale_flash('')
+#3 D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#4 D:\wordpress-6.2.2-vi\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website2\woocommerce\content-product.php(43): do_action('woocommerce_bef...')
+#6 D:\wordpress-6.2.2-vi\wordpress\wp-includes\template.php(787): require('D:\\wordpress-6....')
+#7 D:\wordpress-6.2.2-vi\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('D:\\wordpress-6....', false)
+#8 D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website2\woocommerce\archive-product.php(70): wc_get_template_part('content', 'product')
+#9 D:\wordpress-6.2.2-vi\wordpress\wp-includes\template-loader.php(106): include('D:\\wordpress-6....')
+#10 D:\wordpress-6.2.2-vi\wordpress\wp-blog-header.php(19): require_once('D:\\wordpress-6....')
+#11 D:\wordpress-6.2.2-vi\wordpress\index.php(17): require('D:\\wordpress-6....')
+#12 {main}
+  thrown in D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website2\woocommerce\loop\sale-flash.php on line 23
+
+2023-11-07T10:03:22+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: string - string in D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website2\woocommerce\loop\sale-flash.php:27
+Stack trace:
+#0 D:\wordpress-6.2.2-vi\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 D:\wordpress-6.2.2-vi\wordpress\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1422): wc_get_template('loop/sale-flash...')
+#2 D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php(310): woocommerce_show_product_loop_sale_flash('')
+#3 D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#4 D:\wordpress-6.2.2-vi\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website2\woocommerce\content-product.php(43): do_action('woocommerce_bef...')
+#6 D:\wordpress-6.2.2-vi\wordpress\wp-includes\template.php(787): require('D:\\wordpress-6....')
+#7 D:\wordpress-6.2.2-vi\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('D:\\wordpress-6....', false)
+#8 D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website2\woocommerce\archive-product.php(70): wc_get_template_part('content', 'product')
+#9 D:\wordpress-6.2.2-vi\wordpress\wp-includes\template-loader.php(106): include('D:\\wordpress-6....')
+#10 D:\wordpress-6.2.2-vi\wordpress\wp-blog-header.php(19): require_once('D:\\wordpress-6....')
+#11 D:\wordpress-6.2.2-vi\wordpress\index.php(17): require('D:\\wordpress-6....')
+#12 {main}
+  thrown in D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website2\woocommerce\loop\sale-flash.php on line 27
+
+2023-11-07T10:06:26+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: string - string in D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website2\functions.php:126
+Stack trace:
+#0 D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php(310): replace_discount_text_with_percentage('<span class="on...', Object(WP_Post), Object(WC_Product_Variable))
+#1 D:\wordpress-6.2.2-vi\wordpress\wp-includes\plugin.php(205): WP_Hook->apply_filters('<span class="on...', Array)
+#2 D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website2\woocommerce\loop\sale-flash.php(27): apply_filters('woocommerce_sal...', '<span class="on...', Object(WP_Post), Object(WC_Product_Variable))
+#3 D:\wordpress-6.2.2-vi\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('D:\\wordpress-6....')
+#4 D:\wordpress-6.2.2-vi\wordpress\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1422): wc_get_template('loop/sale-flash...')
+#5 D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php(310): woocommerce_show_product_loop_sale_flash('')
+#6 D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#7 D:\wordpress-6.2.2-vi\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website2\woocommerce\content-product.php(43): do_action('woocommerce_bef...')
+#9 D:\wordpress-6.2.2-vi\wordpress\wp-includes\template.php(787): require('D:\\wordpress-6....')
+#10 D:\wordpress-6.2.2-vi\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('D:\\wordpress-6....', false)
+#11 D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website2\woocommerce\archive-product.php(70): wc_get_template_part('content', 'product')
+#12 D:\wordpress-6.2.2-vi\wordpress\wp-includes\template-loader.php(106): include('D:\\wordpress-6....')
+#13 D:\wordpress-6.2.2-vi\wordpress\wp-blog-header.php(19): require_once('D:\\wordpress-6....')
+#14 D:\wordpress-6.2.2-vi\wordpress\index.php(17): require('D:\\wordpress-6....')
+#15 {main}
+  thrown in D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website2\functions.php on line 126
+
+2023-11-07T10:06:36+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: string - string in D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website2\functions.php:126
+Stack trace:
+#0 D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php(310): replace_discount_text_with_percentage('<span class="on...', Object(WP_Post), Object(WC_Product_Variable))
+#1 D:\wordpress-6.2.2-vi\wordpress\wp-includes\plugin.php(205): WP_Hook->apply_filters('<span class="on...', Array)
+#2 D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website2\woocommerce\single-product\sale-flash.php(27): apply_filters('woocommerce_sal...', '<span class="on...', Object(WP_Post), Object(WC_Product_Variable))
+#3 D:\wordpress-6.2.2-vi\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('D:\\wordpress-6....')
+#4 D:\wordpress-6.2.2-vi\wordpress\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1691): wc_get_template('single-product/...')
+#5 D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php(310): woocommerce_show_product_sale_flash('')
+#6 D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#7 D:\wordpress-6.2.2-vi\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website2\woocommerce\content-single-product.php(43): do_action('woocommerce_bef...')
+#9 D:\wordpress-6.2.2-vi\wordpress\wp-includes\template.php(787): require('D:\\wordpress-6....')
+#10 D:\wordpress-6.2.2-vi\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('D:\\wordpress-6....', false)
+#11 D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website2\woocommerce\single-product.php(39): wc_get_template_part('content', 'single-product')
+#12 D:\wordpress-6.2.2-vi\wordpress\wp-includes\template-loader.php(106): include('D:\\wordpress-6....')
+#13 D:\wordpress-6.2.2-vi\wordpress\wp-blog-header.php(19): require_once('D:\\wordpress-6....')
+#14 D:\wordpress-6.2.2-vi\wordpress\index.php(17): require('D:\\wordpress-6....')
+#15 {main}
+  thrown in D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website2\functions.php on line 126
+
+2023-11-07T10:09:02+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: string - string in D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website2\functions.php:126
+Stack trace:
+#0 D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php(310): replace_discount_text_with_percentage('<span class="on...', Object(WP_Post), Object(WC_Product_Variable))
+#1 D:\wordpress-6.2.2-vi\wordpress\wp-includes\plugin.php(205): WP_Hook->apply_filters('<span class="on...', Array)
+#2 D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website2\woocommerce\single-product\sale-flash.php(27): apply_filters('woocommerce_sal...', '<span class="on...', Object(WP_Post), Object(WC_Product_Variable))
+#3 D:\wordpress-6.2.2-vi\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('D:\\wordpress-6....')
+#4 D:\wordpress-6.2.2-vi\wordpress\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1691): wc_get_template('single-product/...')
+#5 D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php(310): woocommerce_show_product_sale_flash('')
+#6 D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#7 D:\wordpress-6.2.2-vi\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website2\woocommerce\content-single-product.php(43): do_action('woocommerce_bef...')
+#9 D:\wordpress-6.2.2-vi\wordpress\wp-includes\template.php(787): require('D:\\wordpress-6....')
+#10 D:\wordpress-6.2.2-vi\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('D:\\wordpress-6....', false)
+#11 D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website2\woocommerce\single-product.php(39): wc_get_template_part('content', 'single-product')
+#12 D:\wordpress-6.2.2-vi\wordpress\wp-includes\template-loader.php(106): include('D:\\wordpress-6....')
+#13 D:\wordpress-6.2.2-vi\wordpress\wp-blog-header.php(19): require_once('D:\\wordpress-6....')
+#14 D:\wordpress-6.2.2-vi\wordpress\index.php(17): require('D:\\wordpress-6....')
+#15 {main}
+  thrown in D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website2\functions.php on line 126
+
+2023-11-07T10:09:40+00:00 CRITICAL Uncaught Error: Call to a member function get_regular_price() on null in D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website2\functions.php:122
+Stack trace:
+#0 D:\wordpress-6.2.2-vi\wordpress\wp-settings.php(600): include()
+#1 D:\wordpress-6.2.2-vi\wordpress\wp-config.php(96): require_once('D:\\wordpress-6....')
+#2 D:\wordpress-6.2.2-vi\wordpress\wp-load.php(50): require_once('D:\\wordpress-6....')
+#3 D:\wordpress-6.2.2-vi\wordpress\wp-blog-header.php(13): require_once('D:\\wordpress-6....')
+#4 D:\wordpress-6.2.2-vi\wordpress\index.php(17): require('D:\\wordpress-6....')
+#5 {main}
+  thrown in D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website2\functions.php on line 122
+
+2023-11-07T10:10:10+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: string - string in D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website2\functions.php:127
+Stack trace:
+#0 D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php(310): replace_discount_text_with_percentage('<span class="on...', Object(WP_Post), Object(WC_Product_Variable))
+#1 D:\wordpress-6.2.2-vi\wordpress\wp-includes\plugin.php(205): WP_Hook->apply_filters('<span class="on...', Array)
+#2 D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website2\woocommerce\loop\sale-flash.php(27): apply_filters('woocommerce_sal...', '<span class="on...', Object(WP_Post), Object(WC_Product_Variable))
+#3 D:\wordpress-6.2.2-vi\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('D:\\wordpress-6....')
+#4 D:\wordpress-6.2.2-vi\wordpress\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1422): wc_get_template('loop/sale-flash...')
+#5 D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php(310): woocommerce_show_product_loop_sale_flash('')
+#6 D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#7 D:\wordpress-6.2.2-vi\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website2\woocommerce\content-product.php(43): do_action('woocommerce_bef...')
+#9 D:\wordpress-6.2.2-vi\wordpress\wp-includes\template.php(787): require('D:\\wordpress-6....')
+#10 D:\wordpress-6.2.2-vi\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('D:\\wordpress-6....', false)
+#11 D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website2\woocommerce\archive-product.php(70): wc_get_template_part('content', 'product')
+#12 D:\wordpress-6.2.2-vi\wordpress\wp-includes\template-loader.php(106): include('D:\\wordpress-6....')
+#13 D:\wordpress-6.2.2-vi\wordpress\wp-blog-header.php(19): require_once('D:\\wordpress-6....')
+#14 D:\wordpress-6.2.2-vi\wordpress\index.php(17): require('D:\\wordpress-6....')
+#15 {main}
+  thrown in D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website2\functions.php on line 127
+
+2023-11-07T10:10:42+00:00 CRITICAL Uncaught Error: Call to a member function get_regular_price() on null in D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website2\functions.php:124
+Stack trace:
+#0 D:\wordpress-6.2.2-vi\wordpress\wp-settings.php(600): include()
+#1 D:\wordpress-6.2.2-vi\wordpress\wp-config.php(96): require_once('D:\\wordpress-6....')
+#2 D:\wordpress-6.2.2-vi\wordpress\wp-load.php(50): require_once('D:\\wordpress-6....')
+#3 D:\wordpress-6.2.2-vi\wordpress\wp-blog-header.php(13): require_once('D:\\wordpress-6....')
+#4 D:\wordpress-6.2.2-vi\wordpress\index.php(17): require('D:\\wordpress-6....')
+#5 {main}
+  thrown in D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website2\functions.php on line 124
+
+2023-11-07T10:11:49+00:00 CRITICAL Uncaught Error: Call to a member function get_regular_price() on null in D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website2\functions.php:124
+Stack trace:
+#0 D:\wordpress-6.2.2-vi\wordpress\wp-settings.php(600): include()
+#1 D:\wordpress-6.2.2-vi\wordpress\wp-config.php(96): require_once('D:\\wordpress-6....')
+#2 D:\wordpress-6.2.2-vi\wordpress\wp-load.php(50): require_once('D:\\wordpress-6....')
+#3 D:\wordpress-6.2.2-vi\wordpress\wp-admin\admin-ajax.php(22): require_once('D:\\wordpress-6....')
+#4 {main}
+  thrown in D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website2\functions.php on line 124
+
+2023-11-07T10:11:58+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: string - string in D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website2\functions.php:127
+Stack trace:
+#0 D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php(310): replace_discount_text_with_percentage('<span class="on...', Object(WP_Post), Object(WC_Product_Variable))
+#1 D:\wordpress-6.2.2-vi\wordpress\wp-includes\plugin.php(205): WP_Hook->apply_filters('<span class="on...', Array)
+#2 D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website2\woocommerce\loop\sale-flash.php(27): apply_filters('woocommerce_sal...', '<span class="on...', Object(WP_Post), Object(WC_Product_Variable))
+#3 D:\wordpress-6.2.2-vi\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('D:\\wordpress-6....')
+#4 D:\wordpress-6.2.2-vi\wordpress\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1422): wc_get_template('loop/sale-flash...')
+#5 D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php(310): woocommerce_show_product_loop_sale_flash('')
+#6 D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#7 D:\wordpress-6.2.2-vi\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website2\woocommerce\content-product.php(43): do_action('woocommerce_bef...')
+#9 D:\wordpress-6.2.2-vi\wordpress\wp-includes\template.php(787): require('D:\\wordpress-6....')
+#10 D:\wordpress-6.2.2-vi\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('D:\\wordpress-6....', false)
+#11 D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website2\woocommerce\archive-product.php(70): wc_get_template_part('content', 'product')
+#12 D:\wordpress-6.2.2-vi\wordpress\wp-includes\template-loader.php(106): include('D:\\wordpress-6....')
+#13 D:\wordpress-6.2.2-vi\wordpress\wp-blog-header.php(19): require_once('D:\\wordpress-6....')
+#14 D:\wordpress-6.2.2-vi\wordpress\index.php(17): require('D:\\wordpress-6....')
+#15 {main}
+  thrown in D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website2\functions.php on line 127
+
+2023-11-07T10:12:10+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: string - string in D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website2\functions.php:127
+Stack trace:
+#0 D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php(310): replace_discount_text_with_percentage('<span class="on...', Object(WP_Post), Object(WC_Product_Variable))
+#1 D:\wordpress-6.2.2-vi\wordpress\wp-includes\plugin.php(205): WP_Hook->apply_filters('<span class="on...', Array)
+#2 D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website2\woocommerce\single-product\sale-flash.php(27): apply_filters('woocommerce_sal...', '<span class="on...', Object(WP_Post), Object(WC_Product_Variable))
+#3 D:\wordpress-6.2.2-vi\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('D:\\wordpress-6....')
+#4 D:\wordpress-6.2.2-vi\wordpress\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1691): wc_get_template('single-product/...')
+#5 D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php(310): woocommerce_show_product_sale_flash('')
+#6 D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#7 D:\wordpress-6.2.2-vi\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website2\woocommerce\content-single-product.php(43): do_action('woocommerce_bef...')
+#9 D:\wordpress-6.2.2-vi\wordpress\wp-includes\template.php(787): require('D:\\wordpress-6....')
+#10 D:\wordpress-6.2.2-vi\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('D:\\wordpress-6....', false)
+#11 D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website2\woocommerce\single-product.php(39): wc_get_template_part('content', 'single-product')
+#12 D:\wordpress-6.2.2-vi\wordpress\wp-includes\template-loader.php(106): include('D:\\wordpress-6....')
+#13 D:\wordpress-6.2.2-vi\wordpress\wp-blog-header.php(19): require_once('D:\\wordpress-6....')
+#14 D:\wordpress-6.2.2-vi\wordpress\index.php(17): require('D:\\wordpress-6....')
+#15 {main}
+  thrown in D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website2\functions.php on line 127
+
+2023-11-07T10:12:23+00:00 CRITICAL Uncaught Error: Call to a member function get_regular_price() on null in D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website2\functions.php:132
+Stack trace:
+#0 D:\wordpress-6.2.2-vi\wordpress\wp-settings.php(600): include()
+#1 D:\wordpress-6.2.2-vi\wordpress\wp-config.php(96): require_once('D:\\wordpress-6....')
+#2 D:\wordpress-6.2.2-vi\wordpress\wp-load.php(50): require_once('D:\\wordpress-6....')
+#3 D:\wordpress-6.2.2-vi\wordpress\wp-blog-header.php(13): require_once('D:\\wordpress-6....')
+#4 D:\wordpress-6.2.2-vi\wordpress\index.php(17): require('D:\\wordpress-6....')
+#5 {main}
+  thrown in D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website2\functions.php on line 132
+
+2023-11-07T13:14:36+00:00 CRITICAL Uncaught ArgumentCountError: 2 arguments are required, 1 given in D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website2\header.php:83
+Stack trace:
+#0 D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website2\header.php(83): sprintf('%d items')
+#1 D:\wordpress-6.2.2-vi\wordpress\wp-includes\template.php(785): require_once('D:\\wordpress-6....')
+#2 D:\wordpress-6.2.2-vi\wordpress\wp-includes\template.php(720): load_template('D:\\wordpress-6....', true, Array)
+#3 D:\wordpress-6.2.2-vi\wordpress\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#4 D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website2\page.php(1): get_header()
+#5 D:\wordpress-6.2.2-vi\wordpress\wp-includes\template-loader.php(106): include('D:\\wordpress-6....')
+#6 D:\wordpress-6.2.2-vi\wordpress\wp-blog-header.php(19): require_once('D:\\wordpress-6....')
+#7 D:\wordpress-6.2.2-vi\wordpress\index.php(17): require('D:\\wordpress-6....')
+#8 {main}
+  thrown in D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website2\header.php on line 83
+
+2023-11-07T13:14:46+00:00 CRITICAL Uncaught ArgumentCountError: 2 arguments are required, 1 given in D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website2\header.php:83
+Stack trace:
+#0 D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website2\header.php(83): sprintf('%d items')
+#1 D:\wordpress-6.2.2-vi\wordpress\wp-includes\template.php(785): require_once('D:\\wordpress-6....')
+#2 D:\wordpress-6.2.2-vi\wordpress\wp-includes\template.php(720): load_template('D:\\wordpress-6....', true, Array)
+#3 D:\wordpress-6.2.2-vi\wordpress\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#4 D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website2\front-page.php(1): get_header()
+#5 D:\wordpress-6.2.2-vi\wordpress\wp-includes\template-loader.php(106): include('D:\\wordpress-6....')
+#6 D:\wordpress-6.2.2-vi\wordpress\wp-blog-header.php(19): require_once('D:\\wordpress-6....')
+#7 D:\wordpress-6.2.2-vi\wordpress\index.php(17): require('D:\\wordpress-6....')
+#8 {main}
+  thrown in D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website2\header.php on line 83
+

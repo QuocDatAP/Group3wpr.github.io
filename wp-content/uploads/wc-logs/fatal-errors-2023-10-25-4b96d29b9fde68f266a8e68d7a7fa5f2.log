@@ -1,0 +1,33 @@
+2023-10-25T09:25:16+00:00 CRITICAL Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, string given in D:\wordpress-6.2.2-vi\wordpress\wp-content\plugins\countdown-timer\fergcorp_countdownTimer.php:677
+Stack trace:
+#0 D:\wordpress-6.2.2-vi\wordpress\wp-content\plugins\countdown-timer\fergcorp_countdownTimer.php(636): Fergcorp_Countdown_Timer->showTimer()
+#1 D:\wordpress-6.2.2-vi\wordpress\wp-admin\includes\template.php(1443): Fergcorp_Countdown_Timer->example_display_meta_box(NULL, Array)
+#2 D:\wordpress-6.2.2-vi\wordpress\wp-content\plugins\countdown-timer\fergcorp_countdownTimer.php(287): do_meta_boxes(Object(WP_Screen), 'advanced', NULL)
+#3 D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php(310): Fergcorp_Countdown_Timer->settings_page('')
+#4 D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#5 D:\wordpress-6.2.2-vi\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 D:\wordpress-6.2.2-vi\wordpress\wp-admin\admin.php(259): do_action('settings_page_f...')
+#7 D:\wordpress-6.2.2-vi\wordpress\wp-admin\options-general.php(10): require_once('D:\\wordpress-6....')
+#8 {main}
+  thrown in D:\wordpress-6.2.2-vi\wordpress\wp-content\plugins\countdown-timer\fergcorp_countdownTimer.php on line 677
+
+2023-10-25T09:33:48+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "countdown_discount_enqueue_scripts" not found or invalid function name in D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#1 D:\wordpress-6.2.2-vi\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 D:\wordpress-6.2.2-vi\wordpress\wp-includes\script-loader.php(2225): do_action('wp_enqueue_scri...')
+#3 D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php(310): wp_enqueue_scripts('')
+#4 D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#5 D:\wordpress-6.2.2-vi\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 D:\wordpress-6.2.2-vi\wordpress\wp-includes\general-template.php(3053): do_action('wp_head')
+#7 D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website\header.php(7): wp_head()
+#8 D:\wordpress-6.2.2-vi\wordpress\wp-includes\template.php(785): require_once('D:\\wordpress-6....')
+#9 D:\wordpress-6.2.2-vi\wordpress\wp-includes\template.php(720): load_template('D:\\wordpress-6....', true, Array)
+#10 D:\wordpress-6.2.2-vi\wordpress\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#11 D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website\woocommerce\archive-product.php(20): get_header('shop')
+#12 D:\wordpress-6.2.2-vi\wordpress\wp-includes\template-loader.php(106): include('D:\\wordpress-6....')
+#13 D:\wordpress-6.2.2-vi\wordpress\wp-blog-header.php(19): require_once('D:\\wordpress-6....')
+#14 D:\wordpress-6.2.2-vi\wordpress\index.php(17): require('D:\\wordpress-6....')
+#15 {main}
+  thrown in D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php on line 310
+

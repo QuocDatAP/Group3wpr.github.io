@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	>
+
+<channel>
+	<title>Chưa phân loại &#8211; Group3</title>
+	<atom:link href="http://localhost/abc/wordpress/danh-muc-san-pham/chua-phan-loai/feed/?simply_static_page=739" rel="self" type="application/rss+xml" />
+	<link>https://https://github.com/QuocDatAP/Group3wp.github.io.git</link>
+	<description></description>
+	<lastBuildDate>Wed, 15 Nov 2023 13:29:44 +0000</lastBuildDate>
+	<language>vi</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.4.1</generator>
+	<item>
+		<title>đâsdsad</title>
+		<link>https://https://github.com/QuocDatAP/Group3wp.github.io.git/san-pham/dasdsad/</link>
+					<comments>https://https://github.com/QuocDatAP/Group3wp.github.io.git/san-pham/dasdsad/#respond</comments>
+		
+		<dc:creator><![CDATA[dathoa]]></dc:creator>
+		<pubDate>Wed, 15 Nov 2023 13:29:44 +0000</pubDate>
+				<guid isPermaLink="false">https://https://github.com/QuocDatAP/Group3wp.github.io.git/?post_type=product#038;p=304</guid>
+
+					<description><![CDATA[]]></description>
+										<content:encoded><![CDATA[]]></content:encoded>
+					
+					<wfw:commentRss>https://https://github.com/QuocDatAP/Group3wp.github.io.git/san-pham/dasdsad/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>abcaadsds</title>
+		<link>https://https://github.com/QuocDatAP/Group3wp.github.io.git/san-pham/abcaadsds/</link>
+					<comments>https://https://github.com/QuocDatAP/Group3wp.github.io.git/san-pham/abcaadsds/#respond</comments>
+		
+		<dc:creator><![CDATA[dathoa]]></dc:creator>
+		<pubDate>Wed, 15 Nov 2023 13:17:09 +0000</pubDate>
+				<guid isPermaLink="false">https://https://github.com/QuocDatAP/Group3wp.github.io.git/?post_type=product#038;p=299</guid>
+
+					<description><![CDATA[]]></description>
+										<content:encoded><![CDATA[]]></content:encoded>
+					
+					<wfw:commentRss>https://https://github.com/QuocDatAP/Group3wp.github.io.git/san-pham/abcaadsds/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>ádasds</title>
+		<link>https://https://github.com/QuocDatAP/Group3wp.github.io.git/san-pham/adasds/</link>
+					<comments>https://https://github.com/QuocDatAP/Group3wp.github.io.git/san-pham/adasds/#respond</comments>
+		
+		<dc:creator><![CDATA[dathoa]]></dc:creator>
+		<pubDate>Wed, 15 Nov 2023 13:13:46 +0000</pubDate>
+				<guid isPermaLink="false">https://https://github.com/QuocDatAP/Group3wp.github.io.git/?post_type=product#038;p=298</guid>
+
+					<description><![CDATA[]]></description>
+										<content:encoded><![CDATA[]]></content:encoded>
+					
+					<wfw:commentRss>https://https://github.com/QuocDatAP/Group3wp.github.io.git/san-pham/adasds/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

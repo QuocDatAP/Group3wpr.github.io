@@ -1,0 +1,85 @@
+2023-10-24T07:47:02+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: string * int in D:\wordpress-6.2.2-vi\wordpress\wp-content\plugins\countdown-timer\countdown-timer.php:101
+Stack trace:
+#0 D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php(310): apply_discount('42', Object(WC_Product_Variable))
+#1 D:\wordpress-6.2.2-vi\wordpress\wp-includes\plugin.php(205): WP_Hook->apply_filters('42', Array)
+#2 D:\wordpress-6.2.2-vi\wordpress\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-data.php(884): apply_filters('woocommerce_pro...', '42', Object(WC_Product_Variable))
+#3 D:\wordpress-6.2.2-vi\wordpress\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-product.php(270): WC_Data->get_prop('price', 'view')
+#4 D:\wordpress-6.2.2-vi\wordpress\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-product.php(1624): WC_Product->get_price()
+#5 D:\wordpress-6.2.2-vi\wordpress\wp-content\plugins\woocommerce\includes\wc-template-functions.php(692): WC_Product->is_purchasable()
+#6 D:\wordpress-6.2.2-vi\wordpress\wp-content\plugins\woocommerce\includes\wc-template-functions.php(733): wc_get_product_class(Array, Object(WC_Product_Variable))
+#7 D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website\woocommerce\content-product.php(28): wc_product_class('', Object(WC_Product_Variable))
+#8 D:\wordpress-6.2.2-vi\wordpress\wp-includes\template.php(787): require('D:\\wordpress-6....')
+#9 D:\wordpress-6.2.2-vi\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('D:\\wordpress-6....', false)
+#10 D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website\woocommerce\archive-product.php(69): wc_get_template_part('content', 'product')
+#11 D:\wordpress-6.2.2-vi\wordpress\wp-includes\template-loader.php(106): include('D:\\wordpress-6....')
+#12 D:\wordpress-6.2.2-vi\wordpress\wp-blog-header.php(19): require_once('D:\\wordpress-6....')
+#13 D:\wordpress-6.2.2-vi\wordpress\index.php(17): require('D:\\wordpress-6....')
+#14 {main}
+  thrown in D:\wordpress-6.2.2-vi\wordpress\wp-content\plugins\countdown-timer\countdown-timer.php on line 101
+
+2023-10-24T10:52:52+00:00 CRITICAL Uncaught Error: Call to a member function get_regular_price() on string in D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website\woocommerce\single-product.php:25
+Stack trace:
+#0 D:\wordpress-6.2.2-vi\wordpress\wp-includes\template-loader.php(106): include()
+#1 D:\wordpress-6.2.2-vi\wordpress\wp-blog-header.php(19): require_once('D:\\wordpress-6....')
+#2 D:\wordpress-6.2.2-vi\wordpress\index.php(17): require('D:\\wordpress-6....')
+#3 {main}
+  thrown in D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website\woocommerce\single-product.php on line 25
+
+2023-10-24T10:52:55+00:00 CRITICAL Uncaught Error: Call to a member function get_regular_price() on string in D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website\woocommerce\single-product.php:25
+Stack trace:
+#0 D:\wordpress-6.2.2-vi\wordpress\wp-includes\template-loader.php(106): include()
+#1 D:\wordpress-6.2.2-vi\wordpress\wp-blog-header.php(19): require_once('D:\\wordpress-6....')
+#2 D:\wordpress-6.2.2-vi\wordpress\index.php(17): require('D:\\wordpress-6....')
+#3 {main}
+  thrown in D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website\woocommerce\single-product.php on line 25
+
+2023-10-24T10:52:58+00:00 CRITICAL Uncaught Error: Call to a member function get_regular_price() on string in D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website\woocommerce\single-product.php:25
+Stack trace:
+#0 D:\wordpress-6.2.2-vi\wordpress\wp-includes\template-loader.php(106): include()
+#1 D:\wordpress-6.2.2-vi\wordpress\wp-blog-header.php(19): require_once('D:\\wordpress-6....')
+#2 D:\wordpress-6.2.2-vi\wordpress\index.php(17): require('D:\\wordpress-6....')
+#3 {main}
+  thrown in D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website\woocommerce\single-product.php on line 25
+
+2023-10-24T10:53:16+00:00 CRITICAL Uncaught Error: Call to a member function get_regular_price() on string in D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website\woocommerce\single-product.php:25
+Stack trace:
+#0 D:\wordpress-6.2.2-vi\wordpress\wp-includes\template-loader.php(106): include()
+#1 D:\wordpress-6.2.2-vi\wordpress\wp-blog-header.php(19): require_once('D:\\wordpress-6....')
+#2 D:\wordpress-6.2.2-vi\wordpress\index.php(17): require('D:\\wordpress-6....')
+#3 {main}
+  thrown in D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website\woocommerce\single-product.php on line 25
+
+2023-10-24T10:57:15+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::get_regular_price_html() in D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website\woocommerce\single-product\price.php:28
+Stack trace:
+#0 D:\wordpress-6.2.2-vi\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 D:\wordpress-6.2.2-vi\wordpress\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1655): wc_get_template('single-product/...')
+#2 D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php(310): woocommerce_template_single_price('')
+#3 D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#4 D:\wordpress-6.2.2-vi\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website\woocommerce\content-single-product.php(60): do_action('woocommerce_sin...')
+#6 D:\wordpress-6.2.2-vi\wordpress\wp-includes\template.php(787): require('D:\\wordpress-6....')
+#7 D:\wordpress-6.2.2-vi\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('D:\\wordpress-6....', false)
+#8 D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website\woocommerce\single-product.php(39): wc_get_template_part('content', 'single-product')
+#9 D:\wordpress-6.2.2-vi\wordpress\wp-includes\template-loader.php(106): include('D:\\wordpress-6....')
+#10 D:\wordpress-6.2.2-vi\wordpress\wp-blog-header.php(19): require_once('D:\\wordpress-6....')
+#11 D:\wordpress-6.2.2-vi\wordpress\index.php(17): require('D:\\wordpress-6....')
+#12 {main}
+  thrown in D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website\woocommerce\single-product\price.php on line 28
+
+2023-10-24T10:57:32+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::get_regular_price_html() in D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website\woocommerce\single-product\price.php:26
+Stack trace:
+#0 D:\wordpress-6.2.2-vi\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 D:\wordpress-6.2.2-vi\wordpress\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1655): wc_get_template('single-product/...')
+#2 D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php(310): woocommerce_template_single_price('')
+#3 D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#4 D:\wordpress-6.2.2-vi\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website\woocommerce\content-single-product.php(60): do_action('woocommerce_sin...')
+#6 D:\wordpress-6.2.2-vi\wordpress\wp-includes\template.php(787): require('D:\\wordpress-6....')
+#7 D:\wordpress-6.2.2-vi\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('D:\\wordpress-6....', false)
+#8 D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website\woocommerce\single-product.php(39): wc_get_template_part('content', 'single-product')
+#9 D:\wordpress-6.2.2-vi\wordpress\wp-includes\template-loader.php(106): include('D:\\wordpress-6....')
+#10 D:\wordpress-6.2.2-vi\wordpress\wp-blog-header.php(19): require_once('D:\\wordpress-6....')
+#11 D:\wordpress-6.2.2-vi\wordpress\index.php(17): require('D:\\wordpress-6....')
+#12 {main}
+  thrown in D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website\woocommerce\single-product\price.php on line 26
+

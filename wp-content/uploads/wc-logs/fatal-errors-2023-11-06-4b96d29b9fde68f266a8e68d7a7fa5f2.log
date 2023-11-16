@@ -1,0 +1,43 @@
+2023-11-06T03:07:24+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function remove_action(), 1 passed in D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website2\functions.php on line 112 and at least 2 expected in D:\wordpress-6.2.2-vi\wordpress\wp-includes\plugin.php:612
+Stack trace:
+#0 D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website2\functions.php(112): remove_action('woocommerce_tem...')
+#1 D:\wordpress-6.2.2-vi\wordpress\wp-settings.php(600): include('D:\\wordpress-6....')
+#2 D:\wordpress-6.2.2-vi\wordpress\wp-config.php(96): require_once('D:\\wordpress-6....')
+#3 D:\wordpress-6.2.2-vi\wordpress\wp-load.php(50): require_once('D:\\wordpress-6....')
+#4 D:\wordpress-6.2.2-vi\wordpress\wp-blog-header.php(13): require_once('D:\\wordpress-6....')
+#5 D:\wordpress-6.2.2-vi\wordpress\index.php(17): require('D:\\wordpress-6....')
+#6 {main}
+  thrown in D:\wordpress-6.2.2-vi\wordpress\wp-includes\plugin.php on line 612
+
+2023-11-06T03:07:35+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function remove_action(), 1 passed in D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website2\functions.php on line 112 and at least 2 expected in D:\wordpress-6.2.2-vi\wordpress\wp-includes\plugin.php:612
+Stack trace:
+#0 D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website2\functions.php(112): remove_action('woocommerce_tem...')
+#1 D:\wordpress-6.2.2-vi\wordpress\wp-settings.php(600): include('D:\\wordpress-6....')
+#2 D:\wordpress-6.2.2-vi\wordpress\wp-config.php(96): require_once('D:\\wordpress-6....')
+#3 D:\wordpress-6.2.2-vi\wordpress\wp-load.php(50): require_once('D:\\wordpress-6....')
+#4 D:\wordpress-6.2.2-vi\wordpress\wp-admin\admin-ajax.php(22): require_once('D:\\wordpress-6....')
+#5 {main}
+  thrown in D:\wordpress-6.2.2-vi\wordpress\wp-includes\plugin.php on line 612
+
+2023-11-06T03:07:38+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function remove_action(), 1 passed in D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website2\functions.php on line 112 and at least 2 expected in D:\wordpress-6.2.2-vi\wordpress\wp-includes\plugin.php:612
+Stack trace:
+#0 D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website2\functions.php(112): remove_action('woocommerce_tem...')
+#1 D:\wordpress-6.2.2-vi\wordpress\wp-settings.php(600): include('D:\\wordpress-6....')
+#2 D:\wordpress-6.2.2-vi\wordpress\wp-config.php(96): require_once('D:\\wordpress-6....')
+#3 D:\wordpress-6.2.2-vi\wordpress\wp-load.php(50): require_once('D:\\wordpress-6....')
+#4 D:\wordpress-6.2.2-vi\wordpress\wp-blog-header.php(13): require_once('D:\\wordpress-6....')
+#5 D:\wordpress-6.2.2-vi\wordpress\index.php(17): require('D:\\wordpress-6....')
+#6 {main}
+  thrown in D:\wordpress-6.2.2-vi\wordpress\wp-includes\plugin.php on line 612
+
+2023-11-06T03:07:43+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function remove_action(), 1 passed in D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website2\functions.php on line 112 and at least 2 expected in D:\wordpress-6.2.2-vi\wordpress\wp-includes\plugin.php:612
+Stack trace:
+#0 D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website2\functions.php(112): remove_action('woocommerce_tem...')
+#1 D:\wordpress-6.2.2-vi\wordpress\wp-settings.php(600): include('D:\\wordpress-6....')
+#2 D:\wordpress-6.2.2-vi\wordpress\wp-config.php(96): require_once('D:\\wordpress-6....')
+#3 D:\wordpress-6.2.2-vi\wordpress\wp-load.php(50): require_once('D:\\wordpress-6....')
+#4 D:\wordpress-6.2.2-vi\wordpress\wp-blog-header.php(13): require_once('D:\\wordpress-6....')
+#5 D:\wordpress-6.2.2-vi\wordpress\index.php(17): require('D:\\wordpress-6....')
+#6 {main}
+  thrown in D:\wordpress-6.2.2-vi\wordpress\wp-includes\plugin.php on line 612
+

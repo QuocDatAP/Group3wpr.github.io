@@ -1,0 +1,74 @@
+2023-11-03T09:01:15+00:00 CRITICAL Uncaught TypeError: ltrim(): Argument #1 ($string) must be of type string, WP_Error given in D:\wordpress-6.2.2-vi\wordpress\wp-includes\formatting.php:4477
+Stack trace:
+#0 D:\wordpress-6.2.2-vi\wordpress\wp-includes\formatting.php(4477): ltrim(Object(WP_Error))
+#1 D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website\sidebar-shop.php(71): esc_url(Object(WP_Error))
+#2 D:\wordpress-6.2.2-vi\wordpress\wp-includes\template.php(785): require_once('D:\\wordpress-6....')
+#3 D:\wordpress-6.2.2-vi\wordpress\wp-includes\template.php(720): load_template('D:\\wordpress-6....', true, Array)
+#4 D:\wordpress-6.2.2-vi\wordpress\wp-includes\general-template.php(136): locate_template(Array, true, true, Array)
+#5 D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website\woocommerce\global\sidebar.php(22): get_sidebar('shop')
+#6 D:\wordpress-6.2.2-vi\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('D:\\wordpress-6....')
+#7 D:\wordpress-6.2.2-vi\wordpress\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1045): wc_get_template('global/sidebar....')
+#8 D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php(310): woocommerce_get_sidebar('')
+#9 D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#10 D:\wordpress-6.2.2-vi\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#11 D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website\woocommerce\archive-product.php(30): do_action('woocommerce_bef...')
+#12 D:\wordpress-6.2.2-vi\wordpress\wp-includes\template-loader.php(106): include('D:\\wordpress-6....')
+#13 D:\wordpress-6.2.2-vi\wordpress\wp-blog-header.php(19): require_once('D:\\wordpress-6....')
+#14 D:\wordpress-6.2.2-vi\wordpress\index.php(17): require('D:\\wordpress-6....')
+#15 {main}
+  thrown in D:\wordpress-6.2.2-vi\wordpress\wp-includes\formatting.php on line 4477
+
+2023-11-03T09:02:18+00:00 CRITICAL Uncaught TypeError: ltrim(): Argument #1 ($string) must be of type string, WP_Error given in D:\wordpress-6.2.2-vi\wordpress\wp-includes\formatting.php:4477
+Stack trace:
+#0 D:\wordpress-6.2.2-vi\wordpress\wp-includes\formatting.php(4477): ltrim(Object(WP_Error))
+#1 D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website\sidebar-shop.php(71): esc_url(Object(WP_Error))
+#2 D:\wordpress-6.2.2-vi\wordpress\wp-includes\template.php(785): require_once('D:\\wordpress-6....')
+#3 D:\wordpress-6.2.2-vi\wordpress\wp-includes\template.php(720): load_template('D:\\wordpress-6....', true, Array)
+#4 D:\wordpress-6.2.2-vi\wordpress\wp-includes\general-template.php(136): locate_template(Array, true, true, Array)
+#5 D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website\woocommerce\global\sidebar.php(22): get_sidebar('shop')
+#6 D:\wordpress-6.2.2-vi\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('D:\\wordpress-6....')
+#7 D:\wordpress-6.2.2-vi\wordpress\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1045): wc_get_template('global/sidebar....')
+#8 D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php(310): woocommerce_get_sidebar('')
+#9 D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#10 D:\wordpress-6.2.2-vi\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#11 D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website\woocommerce\archive-product.php(30): do_action('woocommerce_bef...')
+#12 D:\wordpress-6.2.2-vi\wordpress\wp-includes\template-loader.php(106): include('D:\\wordpress-6....')
+#13 D:\wordpress-6.2.2-vi\wordpress\wp-blog-header.php(19): require_once('D:\\wordpress-6....')
+#14 D:\wordpress-6.2.2-vi\wordpress\index.php(17): require('D:\\wordpress-6....')
+#15 {main}
+  thrown in D:\wordpress-6.2.2-vi\wordpress\wp-includes\formatting.php on line 4477
+
+2023-11-03T13:18:30+00:00 CRITICAL Cannot redeclare shop_wc_output_content_wrapper() (previously declared in D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\shop\functions.php:139) in D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\shop\inc\woocommerce.php on line 3
+
+2023-11-03T13:39:09+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "shop_wc_loop_rating_loop_price" not found or invalid function name in D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#1 D:\wordpress-6.2.2-vi\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website\woocommerce\content-product.php(58): do_action('woocommerce_aft...')
+#3 D:\wordpress-6.2.2-vi\wordpress\wp-includes\template.php(787): require('D:\\wordpress-6....')
+#4 D:\wordpress-6.2.2-vi\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('D:\\wordpress-6....', false)
+#5 D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website\woocommerce\archive-product.php(83): wc_get_template_part('content', 'product')
+#6 D:\wordpress-6.2.2-vi\wordpress\wp-includes\template-loader.php(106): include('D:\\wordpress-6....')
+#7 D:\wordpress-6.2.2-vi\wordpress\wp-blog-header.php(19): require_once('D:\\wordpress-6....')
+#8 D:\wordpress-6.2.2-vi\wordpress\index.php(17): require('D:\\wordpress-6....')
+#9 {main}
+  thrown in D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php on line 310
+
+2023-11-03T15:15:35+00:00 CRITICAL Uncaught Error: Call to undefined function wc_get_wishlist_url() in D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website2\woocommerce\single-product\related.php:20
+Stack trace:
+#0 D:\wordpress-6.2.2-vi\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 D:\wordpress-6.2.2-vi\wordpress\wp-content\plugins\woocommerce\includes\wc-template-functions.php(2080): wc_get_template('single-product/...', Array)
+#2 D:\wordpress-6.2.2-vi\wordpress\wp-content\plugins\woocommerce\includes\wc-template-functions.php(2043): woocommerce_related_products(Array)
+#3 D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php(310): woocommerce_output_related_products('')
+#4 D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#5 D:\wordpress-6.2.2-vi\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website2\woocommerce\content-single-product.php(72): do_action('woocommerce_aft...')
+#7 D:\wordpress-6.2.2-vi\wordpress\wp-includes\template.php(787): require('D:\\wordpress-6....')
+#8 D:\wordpress-6.2.2-vi\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('D:\\wordpress-6....', false)
+#9 D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website2\woocommerce\single-product.php(39): wc_get_template_part('content', 'single-product')
+#10 D:\wordpress-6.2.2-vi\wordpress\wp-includes\template-loader.php(106): include('D:\\wordpress-6....')
+#11 D:\wordpress-6.2.2-vi\wordpress\wp-blog-header.php(19): require_once('D:\\wordpress-6....')
+#12 D:\wordpress-6.2.2-vi\wordpress\index.php(17): require('D:\\wordpress-6....')
+#13 {main}
+  thrown in D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website2\woocommerce\single-product\related.php on line 20
+

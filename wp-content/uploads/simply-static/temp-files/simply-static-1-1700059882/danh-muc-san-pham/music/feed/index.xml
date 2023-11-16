@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	>
+
+<channel>
+	<title>Music &#8211; Group3</title>
+	<atom:link href="http://localhost/abc/wordpress/danh-muc-san-pham/music/feed/?simply_static_page=761" rel="self" type="application/rss+xml" />
+	<link>https://https://github.com/QuocDatAP/Group3wp.github.io.git</link>
+	<description></description>
+	<lastBuildDate>Tue, 31 Oct 2023 07:51:27 +0000</lastBuildDate>
+	<language>vi</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.4.1</generator>
+	<item>
+		<title>Single</title>
+		<link>https://https://github.com/QuocDatAP/Group3wp.github.io.git/san-pham/single/</link>
+					<comments>https://https://github.com/QuocDatAP/Group3wp.github.io.git/san-pham/single/#respond</comments>
+		
+		<dc:creator><![CDATA[dathoa]]></dc:creator>
+		<pubDate>Wed, 25 Oct 2023 10:27:20 +0000</pubDate>
+				<guid isPermaLink="false">https://https://github.com/QuocDatAP/Group3wp.github.io.git/?post_type=product#038;p=200</guid>
+
+					<description><![CDATA[This is a simple, virtual product.]]></description>
+										<content:encoded><![CDATA[<p><strong style ="color: red; font-size:30px;" >Lorem</strong> ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sagittis orci ac odio dictum tincidunt. Donec ut metus leo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed luctus, dui eu sagittis sodales, nulla nibh sagittis augue, vel porttitor diam enim non metus. Vestibulum aliquam augue neque. Phasellus tincidunt odio eget ullamcorper efficitur. Cras placerat ut turpis pellentesque vulputate. Nam sed consequat tortor. Curabitur finibus sapien dolor. Ut eleifend tellus nec erat pulvinar dignissim. Nam non arcu purus. Vivamus et massa massa.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://https://github.com/QuocDatAP/Group3wp.github.io.git/san-pham/single/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Album</title>
+		<link>https://https://github.com/QuocDatAP/Group3wp.github.io.git/san-pham/album/</link>
+					<comments>https://https://github.com/QuocDatAP/Group3wp.github.io.git/san-pham/album/#comments</comments>
+		
+		<dc:creator><![CDATA[dathoa]]></dc:creator>
+		<pubDate>Wed, 25 Oct 2023 10:27:20 +0000</pubDate>
+				<guid isPermaLink="false">https://https://github.com/QuocDatAP/Group3wp.github.io.git/?post_type=product#038;p=199</guid>
+
+					<description><![CDATA[This is a simple, virtual product.]]></description>
+										<content:encoded><![CDATA[<p><strong style ="color: red; font-size:30px;" >Lorem</strong> ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sagittis orci ac odio dictum tincidunt. Donec ut metus leo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed luctus, dui eu sagittis sodales, nulla nibh sagittis augue, vel porttitor diam enim non metus. Vestibulum aliquam augue neque. Phasellus tincidunt odio eget ullamcorper efficitur. Cras placerat ut turpis pellentesque vulputate. Nam sed consequat tortor. Curabitur finibus sapien dolor. Ut eleifend tellus nec erat pulvinar dignissim. Nam non arcu purus. Vivamus et massa massa.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://https://github.com/QuocDatAP/Group3wp.github.io.git/san-pham/album/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

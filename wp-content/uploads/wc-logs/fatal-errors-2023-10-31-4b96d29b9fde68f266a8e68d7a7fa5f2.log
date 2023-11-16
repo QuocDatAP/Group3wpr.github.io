@@ -1,0 +1,423 @@
+2023-10-31T10:13:08+00:00 CRITICAL syntax error, unexpected string content ",", expecting ")" in D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\shop\functions.php on line 50
+
+2023-10-31T10:52:15+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "shop_wc_output_content_wrapper" not found or invalid function name in D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 D:\wordpress-6.2.2-vi\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\shop\woocommerce\archive-product.php(29): do_action('woocommerce_bef...')
+#3 D:\wordpress-6.2.2-vi\wordpress\wp-includes\template-loader.php(106): include('D:\\wordpress-6....')
+#4 D:\wordpress-6.2.2-vi\wordpress\wp-blog-header.php(19): require_once('D:\\wordpress-6....')
+#5 D:\wordpress-6.2.2-vi\wordpress\index.php(17): require('D:\\wordpress-6....')
+#6 {main}
+  thrown in D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php on line 310
+
+2023-10-31T10:52:50+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "shop_wc_output_content_wrapper" not found or invalid function name in D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 D:\wordpress-6.2.2-vi\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\shop\woocommerce\archive-product.php(29): do_action('woocommerce_bef...')
+#3 D:\wordpress-6.2.2-vi\wordpress\wp-includes\template-loader.php(106): include('D:\\wordpress-6....')
+#4 D:\wordpress-6.2.2-vi\wordpress\wp-blog-header.php(19): require_once('D:\\wordpress-6....')
+#5 D:\wordpress-6.2.2-vi\wordpress\index.php(17): require('D:\\wordpress-6....')
+#6 {main}
+  thrown in D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php on line 310
+
+2023-10-31T10:55:53+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "shop_wc_output_content_wrapper" not found or invalid function name in D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 D:\wordpress-6.2.2-vi\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\shop\woocommerce\archive-product.php(29): do_action('woocommerce_bef...')
+#3 D:\wordpress-6.2.2-vi\wordpress\wp-includes\template-loader.php(106): include('D:\\wordpress-6....')
+#4 D:\wordpress-6.2.2-vi\wordpress\wp-blog-header.php(19): require_once('D:\\wordpress-6....')
+#5 D:\wordpress-6.2.2-vi\wordpress\index.php(17): require('D:\\wordpress-6....')
+#6 {main}
+  thrown in D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php on line 310
+
+2023-10-31T10:56:07+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "shop_wc_output_content_wrapper" not found or invalid function name in D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 D:\wordpress-6.2.2-vi\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\shop\woocommerce\archive-product.php(29): do_action('woocommerce_bef...')
+#3 D:\wordpress-6.2.2-vi\wordpress\wp-includes\template-loader.php(106): include('D:\\wordpress-6....')
+#4 D:\wordpress-6.2.2-vi\wordpress\wp-blog-header.php(19): require_once('D:\\wordpress-6....')
+#5 D:\wordpress-6.2.2-vi\wordpress\index.php(17): require('D:\\wordpress-6....')
+#6 {main}
+  thrown in D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php on line 310
+
+2023-10-31T10:56:25+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "shop_wc_output_content_wrapper" not found or invalid function name in D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 D:\wordpress-6.2.2-vi\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\shop\woocommerce\archive-product.php(29): do_action('woocommerce_bef...')
+#3 D:\wordpress-6.2.2-vi\wordpress\wp-includes\template-loader.php(106): include('D:\\wordpress-6....')
+#4 D:\wordpress-6.2.2-vi\wordpress\wp-blog-header.php(19): require_once('D:\\wordpress-6....')
+#5 D:\wordpress-6.2.2-vi\wordpress\index.php(17): require('D:\\wordpress-6....')
+#6 {main}
+  thrown in D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php on line 310
+
+2023-10-31T10:58:45+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "shop_wc_output_content_wrapper" not found or invalid function name in D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 D:\wordpress-6.2.2-vi\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\shop\woocommerce\archive-product.php(29): do_action('woocommerce_bef...')
+#3 D:\wordpress-6.2.2-vi\wordpress\wp-includes\template-loader.php(106): include('D:\\wordpress-6....')
+#4 D:\wordpress-6.2.2-vi\wordpress\wp-blog-header.php(19): require_once('D:\\wordpress-6....')
+#5 D:\wordpress-6.2.2-vi\wordpress\index.php(17): require('D:\\wordpress-6....')
+#6 {main}
+  thrown in D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php on line 310
+
+2023-10-31T10:58:57+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "shop_wc_output_content_wrapper" not found or invalid function name in D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 D:\wordpress-6.2.2-vi\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\shop\woocommerce\archive-product.php(29): do_action('woocommerce_bef...')
+#3 D:\wordpress-6.2.2-vi\wordpress\wp-includes\template-loader.php(106): include('D:\\wordpress-6....')
+#4 D:\wordpress-6.2.2-vi\wordpress\wp-blog-header.php(19): require_once('D:\\wordpress-6....')
+#5 D:\wordpress-6.2.2-vi\wordpress\index.php(17): require('D:\\wordpress-6....')
+#6 {main}
+  thrown in D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php on line 310
+
+2023-10-31T11:01:13+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "shop_wc_output_content_wrapper" not found or invalid function name in D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 D:\wordpress-6.2.2-vi\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\shop\woocommerce\archive-product.php(29): do_action('woocommerce_bef...')
+#3 D:\wordpress-6.2.2-vi\wordpress\wp-includes\template-loader.php(106): include('D:\\wordpress-6....')
+#4 D:\wordpress-6.2.2-vi\wordpress\wp-blog-header.php(19): require_once('D:\\wordpress-6....')
+#5 D:\wordpress-6.2.2-vi\wordpress\index.php(17): require('D:\\wordpress-6....')
+#6 {main}
+  thrown in D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php on line 310
+
+2023-10-31T11:01:29+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "shop_wc_output_content_wrapper" not found or invalid function name in D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 D:\wordpress-6.2.2-vi\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\shop\woocommerce\archive-product.php(29): do_action('woocommerce_bef...')
+#3 D:\wordpress-6.2.2-vi\wordpress\wp-includes\template-loader.php(106): include('D:\\wordpress-6....')
+#4 D:\wordpress-6.2.2-vi\wordpress\wp-blog-header.php(19): require_once('D:\\wordpress-6....')
+#5 D:\wordpress-6.2.2-vi\wordpress\index.php(17): require('D:\\wordpress-6....')
+#6 {main}
+  thrown in D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php on line 310
+
+2023-10-31T11:02:21+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "shop_wc_output_content_wrapper" not found or invalid function name in D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 D:\wordpress-6.2.2-vi\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\shop\woocommerce\archive-product.php(29): do_action('woocommerce_bef...')
+#3 D:\wordpress-6.2.2-vi\wordpress\wp-includes\template-loader.php(106): include('D:\\wordpress-6....')
+#4 D:\wordpress-6.2.2-vi\wordpress\wp-blog-header.php(19): require_once('D:\\wordpress-6....')
+#5 D:\wordpress-6.2.2-vi\wordpress\index.php(17): require('D:\\wordpress-6....')
+#6 {main}
+  thrown in D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php on line 310
+
+2023-10-31T11:03:04+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "shop_wc_output_content_wrapper" not found or invalid function name in D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 D:\wordpress-6.2.2-vi\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\shop\woocommerce\archive-product.php(29): do_action('woocommerce_bef...')
+#3 D:\wordpress-6.2.2-vi\wordpress\wp-includes\template-loader.php(106): include('D:\\wordpress-6....')
+#4 D:\wordpress-6.2.2-vi\wordpress\wp-blog-header.php(19): require_once('D:\\wordpress-6....')
+#5 D:\wordpress-6.2.2-vi\wordpress\index.php(17): require('D:\\wordpress-6....')
+#6 {main}
+  thrown in D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php on line 310
+
+2023-10-31T11:03:53+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "shop_wc_output_content_wrapper" not found or invalid function name in D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 D:\wordpress-6.2.2-vi\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\shop\woocommerce\archive-product.php(29): do_action('woocommerce_bef...')
+#3 D:\wordpress-6.2.2-vi\wordpress\wp-includes\template-loader.php(106): include('D:\\wordpress-6....')
+#4 D:\wordpress-6.2.2-vi\wordpress\wp-blog-header.php(19): require_once('D:\\wordpress-6....')
+#5 D:\wordpress-6.2.2-vi\wordpress\index.php(17): require('D:\\wordpress-6....')
+#6 {main}
+  thrown in D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php on line 310
+
+2023-10-31T11:04:03+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "shop_wc_output_content_wrapper" not found or invalid function name in D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 D:\wordpress-6.2.2-vi\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\shop\woocommerce\archive-product.php(29): do_action('woocommerce_bef...')
+#3 D:\wordpress-6.2.2-vi\wordpress\wp-includes\template-loader.php(106): include('D:\\wordpress-6....')
+#4 D:\wordpress-6.2.2-vi\wordpress\wp-blog-header.php(19): require_once('D:\\wordpress-6....')
+#5 D:\wordpress-6.2.2-vi\wordpress\index.php(17): require('D:\\wordpress-6....')
+#6 {main}
+  thrown in D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php on line 310
+
+2023-10-31T11:04:16+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "shop_wc_output_content_wrapper" not found or invalid function name in D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 D:\wordpress-6.2.2-vi\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\shop\woocommerce\archive-product.php(29): do_action('woocommerce_bef...')
+#3 D:\wordpress-6.2.2-vi\wordpress\wp-includes\template-loader.php(106): include('D:\\wordpress-6....')
+#4 D:\wordpress-6.2.2-vi\wordpress\wp-blog-header.php(19): require_once('D:\\wordpress-6....')
+#5 D:\wordpress-6.2.2-vi\wordpress\index.php(17): require('D:\\wordpress-6....')
+#6 {main}
+  thrown in D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php on line 310
+
+2023-10-31T11:04:27+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "shop_wc_output_content_wrapper" not found or invalid function name in D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 D:\wordpress-6.2.2-vi\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\shop\woocommerce\archive-product.php(29): do_action('woocommerce_bef...')
+#3 D:\wordpress-6.2.2-vi\wordpress\wp-includes\template-loader.php(106): include('D:\\wordpress-6....')
+#4 D:\wordpress-6.2.2-vi\wordpress\wp-blog-header.php(19): require_once('D:\\wordpress-6....')
+#5 D:\wordpress-6.2.2-vi\wordpress\index.php(17): require('D:\\wordpress-6....')
+#6 {main}
+  thrown in D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php on line 310
+
+2023-10-31T11:04:35+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "shop_wc_output_content_wrapper" not found or invalid function name in D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 D:\wordpress-6.2.2-vi\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\shop\woocommerce\archive-product.php(29): do_action('woocommerce_bef...')
+#3 D:\wordpress-6.2.2-vi\wordpress\wp-includes\template-loader.php(106): include('D:\\wordpress-6....')
+#4 D:\wordpress-6.2.2-vi\wordpress\wp-blog-header.php(19): require_once('D:\\wordpress-6....')
+#5 D:\wordpress-6.2.2-vi\wordpress\index.php(17): require('D:\\wordpress-6....')
+#6 {main}
+  thrown in D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php on line 310
+
+2023-10-31T11:05:33+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "shop_wc_output_content_wrapper" not found or invalid function name in D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 D:\wordpress-6.2.2-vi\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\shop\woocommerce\archive-product.php(29): do_action('woocommerce_bef...')
+#3 D:\wordpress-6.2.2-vi\wordpress\wp-includes\template-loader.php(106): include('D:\\wordpress-6....')
+#4 D:\wordpress-6.2.2-vi\wordpress\wp-blog-header.php(19): require_once('D:\\wordpress-6....')
+#5 D:\wordpress-6.2.2-vi\wordpress\index.php(17): require('D:\\wordpress-6....')
+#6 {main}
+  thrown in D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php on line 310
+
+2023-10-31T11:06:46+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "shop_wc_output_content_wrapper" not found or invalid function name in D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 D:\wordpress-6.2.2-vi\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\shop\woocommerce\archive-product.php(29): do_action('woocommerce_bef...')
+#3 D:\wordpress-6.2.2-vi\wordpress\wp-includes\template-loader.php(106): include('D:\\wordpress-6....')
+#4 D:\wordpress-6.2.2-vi\wordpress\wp-blog-header.php(19): require_once('D:\\wordpress-6....')
+#5 D:\wordpress-6.2.2-vi\wordpress\index.php(17): require('D:\\wordpress-6....')
+#6 {main}
+  thrown in D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php on line 310
+
+2023-10-31T11:07:29+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "shop_wc_output_content_wrapper" not found or invalid function name in D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 D:\wordpress-6.2.2-vi\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\shop\woocommerce\archive-product.php(29): do_action('woocommerce_bef...')
+#3 D:\wordpress-6.2.2-vi\wordpress\wp-includes\template-loader.php(106): include('D:\\wordpress-6....')
+#4 D:\wordpress-6.2.2-vi\wordpress\wp-blog-header.php(19): require_once('D:\\wordpress-6....')
+#5 D:\wordpress-6.2.2-vi\wordpress\index.php(17): require('D:\\wordpress-6....')
+#6 {main}
+  thrown in D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php on line 310
+
+2023-10-31T11:07:59+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "shop_wc_output_content_wrapper" not found or invalid function name in D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 D:\wordpress-6.2.2-vi\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\shop\woocommerce\archive-product.php(29): do_action('woocommerce_bef...')
+#3 D:\wordpress-6.2.2-vi\wordpress\wp-includes\template-loader.php(106): include('D:\\wordpress-6....')
+#4 D:\wordpress-6.2.2-vi\wordpress\wp-blog-header.php(19): require_once('D:\\wordpress-6....')
+#5 D:\wordpress-6.2.2-vi\wordpress\index.php(17): require('D:\\wordpress-6....')
+#6 {main}
+  thrown in D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php on line 310
+
+2023-10-31T11:09:02+00:00 CRITICAL Cannot redeclare shop_wc_output_content_wrapper() (previously declared in D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\shop\functions.php:79) in D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\shop\inc\woocommerce.php on line 2
+
+2023-10-31T11:09:20+00:00 CRITICAL Cannot redeclare shop_wc_output_content_wrapper() (previously declared in D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\shop\functions.php:79) in D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\shop\inc\woocommerce.php on line 2
+
+2023-10-31T11:12:16+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "shop_wc_after_main_content" not found or invalid function name in D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#1 D:\wordpress-6.2.2-vi\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\shop\woocommerce\archive-product.php(95): do_action('woocommerce_aft...')
+#3 D:\wordpress-6.2.2-vi\wordpress\wp-includes\template-loader.php(106): include('D:\\wordpress-6....')
+#4 D:\wordpress-6.2.2-vi\wordpress\wp-blog-header.php(19): require_once('D:\\wordpress-6....')
+#5 D:\wordpress-6.2.2-vi\wordpress\index.php(17): require('D:\\wordpress-6....')
+#6 {main}
+  thrown in D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php on line 310
+
+2023-10-31T11:12:36+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "shop_wc_after_main_content" not found or invalid function name in D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#1 D:\wordpress-6.2.2-vi\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\shop\woocommerce\archive-product.php(95): do_action('woocommerce_aft...')
+#3 D:\wordpress-6.2.2-vi\wordpress\wp-includes\template-loader.php(106): include('D:\\wordpress-6....')
+#4 D:\wordpress-6.2.2-vi\wordpress\wp-blog-header.php(19): require_once('D:\\wordpress-6....')
+#5 D:\wordpress-6.2.2-vi\wordpress\index.php(17): require('D:\\wordpress-6....')
+#6 {main}
+  thrown in D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php on line 310
+
+2023-10-31T11:25:55+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "" not found or invalid function name in D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 D:\wordpress-6.2.2-vi\wordpress\wp-includes\plugin.php(205): WP_Hook->apply_filters(true, Array)
+#1 D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\shop\woocommerce\archive-product.php(49): apply_filters('woocommerce_sho...', true)
+#2 D:\wordpress-6.2.2-vi\wordpress\wp-includes\template-loader.php(106): include('D:\\wordpress-6....')
+#3 D:\wordpress-6.2.2-vi\wordpress\wp-blog-header.php(19): require_once('D:\\wordpress-6....')
+#4 D:\wordpress-6.2.2-vi\wordpress\index.php(17): require('D:\\wordpress-6....')
+#5 {main}
+  thrown in D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php on line 310
+
+2023-10-31T11:26:17+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "" not found or invalid function name in D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 D:\wordpress-6.2.2-vi\wordpress\wp-includes\plugin.php(205): WP_Hook->apply_filters(true, Array)
+#1 D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\shop\woocommerce\archive-product.php(49): apply_filters('woocommerce_sho...', true)
+#2 D:\wordpress-6.2.2-vi\wordpress\wp-includes\template-loader.php(106): include('D:\\wordpress-6....')
+#3 D:\wordpress-6.2.2-vi\wordpress\wp-blog-header.php(19): require_once('D:\\wordpress-6....')
+#4 D:\wordpress-6.2.2-vi\wordpress\index.php(17): require('D:\\wordpress-6....')
+#5 {main}
+  thrown in D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php on line 310
+
+2023-10-31T11:26:20+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "" not found or invalid function name in D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 D:\wordpress-6.2.2-vi\wordpress\wp-includes\plugin.php(205): WP_Hook->apply_filters(true, Array)
+#1 D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\shop\woocommerce\archive-product.php(49): apply_filters('woocommerce_sho...', true)
+#2 D:\wordpress-6.2.2-vi\wordpress\wp-includes\template-loader.php(106): include('D:\\wordpress-6....')
+#3 D:\wordpress-6.2.2-vi\wordpress\wp-blog-header.php(19): require_once('D:\\wordpress-6....')
+#4 D:\wordpress-6.2.2-vi\wordpress\index.php(17): require('D:\\wordpress-6....')
+#5 {main}
+  thrown in D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php on line 310
+
+2023-10-31T11:27:10+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "" not found or invalid function name in D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 D:\wordpress-6.2.2-vi\wordpress\wp-includes\plugin.php(205): WP_Hook->apply_filters(true, Array)
+#1 D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\shop\woocommerce\archive-product.php(34): apply_filters('woocommerce_sho...', true)
+#2 D:\wordpress-6.2.2-vi\wordpress\wp-includes\template-loader.php(106): include('D:\\wordpress-6....')
+#3 D:\wordpress-6.2.2-vi\wordpress\wp-blog-header.php(19): require_once('D:\\wordpress-6....')
+#4 D:\wordpress-6.2.2-vi\wordpress\index.php(17): require('D:\\wordpress-6....')
+#5 {main}
+  thrown in D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php on line 310
+
+2023-10-31T12:17:21+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "shop_wc_output_content_wrapper" not found or invalid function name in D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 D:\wordpress-6.2.2-vi\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\shop\woocommerce\archive-product.php(31): do_action('woocommerce_bef...')
+#3 D:\wordpress-6.2.2-vi\wordpress\wp-includes\template-loader.php(106): include('D:\\wordpress-6....')
+#4 D:\wordpress-6.2.2-vi\wordpress\wp-blog-header.php(19): require_once('D:\\wordpress-6....')
+#5 D:\wordpress-6.2.2-vi\wordpress\index.php(17): require('D:\\wordpress-6....')
+#6 {main}
+  thrown in D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php on line 310
+
+2023-10-31T12:26:03+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "" not found or invalid function name in D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 D:\wordpress-6.2.2-vi\wordpress\wp-includes\plugin.php(205): WP_Hook->apply_filters(true, Array)
+#1 D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\shop\woocommerce\archive-product.php(34): apply_filters('woocommerce_sho...', true)
+#2 D:\wordpress-6.2.2-vi\wordpress\wp-includes\template-loader.php(106): include('D:\\wordpress-6....')
+#3 D:\wordpress-6.2.2-vi\wordpress\wp-blog-header.php(19): require_once('D:\\wordpress-6....')
+#4 D:\wordpress-6.2.2-vi\wordpress\index.php(17): require('D:\\wordpress-6....')
+#5 {main}
+  thrown in D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php on line 310
+
+2023-10-31T12:26:20+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "" not found or invalid function name in D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 D:\wordpress-6.2.2-vi\wordpress\wp-includes\plugin.php(205): WP_Hook->apply_filters(true, Array)
+#1 D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\shop\woocommerce\archive-product.php(34): apply_filters('woocommerce_sho...', true)
+#2 D:\wordpress-6.2.2-vi\wordpress\wp-includes\template-loader.php(106): include('D:\\wordpress-6....')
+#3 D:\wordpress-6.2.2-vi\wordpress\wp-blog-header.php(19): require_once('D:\\wordpress-6....')
+#4 D:\wordpress-6.2.2-vi\wordpress\index.php(17): require('D:\\wordpress-6....')
+#5 {main}
+  thrown in D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php on line 310
+
+2023-10-31T12:27:17+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "" not found or invalid function name in D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 D:\wordpress-6.2.2-vi\wordpress\wp-includes\plugin.php(205): WP_Hook->apply_filters(true, Array)
+#1 D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\shop\woocommerce\archive-product.php(34): apply_filters('woocommerce_sho...', true)
+#2 D:\wordpress-6.2.2-vi\wordpress\wp-includes\template-loader.php(106): include('D:\\wordpress-6....')
+#3 D:\wordpress-6.2.2-vi\wordpress\wp-blog-header.php(19): require_once('D:\\wordpress-6....')
+#4 D:\wordpress-6.2.2-vi\wordpress\index.php(17): require('D:\\wordpress-6....')
+#5 {main}
+  thrown in D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php on line 310
+
+2023-10-31T12:27:43+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "" not found or invalid function name in D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 D:\wordpress-6.2.2-vi\wordpress\wp-includes\plugin.php(205): WP_Hook->apply_filters(true, Array)
+#1 D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\shop\woocommerce\archive-product.php(34): apply_filters('woocommerce_sho...', true)
+#2 D:\wordpress-6.2.2-vi\wordpress\wp-includes\template-loader.php(106): include('D:\\wordpress-6....')
+#3 D:\wordpress-6.2.2-vi\wordpress\wp-blog-header.php(19): require_once('D:\\wordpress-6....')
+#4 D:\wordpress-6.2.2-vi\wordpress\index.php(17): require('D:\\wordpress-6....')
+#5 {main}
+  thrown in D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php on line 310
+
+2023-10-31T12:28:23+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "" not found or invalid function name in D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 D:\wordpress-6.2.2-vi\wordpress\wp-includes\plugin.php(205): WP_Hook->apply_filters(true, Array)
+#1 D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\shop\woocommerce\archive-product.php(34): apply_filters('woocommerce_sho...', true)
+#2 D:\wordpress-6.2.2-vi\wordpress\wp-includes\template-loader.php(106): include('D:\\wordpress-6....')
+#3 D:\wordpress-6.2.2-vi\wordpress\wp-blog-header.php(19): require_once('D:\\wordpress-6....')
+#4 D:\wordpress-6.2.2-vi\wordpress\index.php(17): require('D:\\wordpress-6....')
+#5 {main}
+  thrown in D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php on line 310
+
+2023-10-31T12:28:45+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "" not found or invalid function name in D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 D:\wordpress-6.2.2-vi\wordpress\wp-includes\plugin.php(205): WP_Hook->apply_filters(true, Array)
+#1 D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\shop\woocommerce\archive-product.php(34): apply_filters('woocommerce_sho...', true)
+#2 D:\wordpress-6.2.2-vi\wordpress\wp-includes\template-loader.php(106): include('D:\\wordpress-6....')
+#3 D:\wordpress-6.2.2-vi\wordpress\wp-blog-header.php(19): require_once('D:\\wordpress-6....')
+#4 D:\wordpress-6.2.2-vi\wordpress\index.php(17): require('D:\\wordpress-6....')
+#5 {main}
+  thrown in D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php on line 310
+
+2023-10-31T12:29:28+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "" not found or invalid function name in D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 D:\wordpress-6.2.2-vi\wordpress\wp-includes\plugin.php(205): WP_Hook->apply_filters(true, Array)
+#1 D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\shop\woocommerce\archive-product.php(34): apply_filters('woocommerce_sho...', true)
+#2 D:\wordpress-6.2.2-vi\wordpress\wp-includes\template-loader.php(106): include('D:\\wordpress-6....')
+#3 D:\wordpress-6.2.2-vi\wordpress\wp-blog-header.php(19): require_once('D:\\wordpress-6....')
+#4 D:\wordpress-6.2.2-vi\wordpress\index.php(17): require('D:\\wordpress-6....')
+#5 {main}
+  thrown in D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php on line 310
+
+2023-10-31T12:59:31+00:00 CRITICAL Uncaught Error: Undefined constant "the_title" in D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\shop\inc\woocommerce.php:14
+Stack trace:
+#0 D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php(310): shop_wc_loop_product_title('')
+#1 D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#2 D:\wordpress-6.2.2-vi\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\shop\woocommerce\content-product.php(50): do_action('woocommerce_sho...')
+#4 D:\wordpress-6.2.2-vi\wordpress\wp-includes\template.php(787): require('D:\\wordpress-6....')
+#5 D:\wordpress-6.2.2-vi\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('D:\\wordpress-6....', false)
+#6 D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\shop\woocommerce\archive-product.php(83): wc_get_template_part('content', 'product')
+#7 D:\wordpress-6.2.2-vi\wordpress\wp-includes\template-loader.php(106): include('D:\\wordpress-6....')
+#8 D:\wordpress-6.2.2-vi\wordpress\wp-blog-header.php(19): require_once('D:\\wordpress-6....')
+#9 D:\wordpress-6.2.2-vi\wordpress\index.php(17): require('D:\\wordpress-6....')
+#10 {main}
+  thrown in D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\shop\inc\woocommerce.php on line 14
+
+2023-10-31T13:07:19+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "shop_wc_loop_product_thumbnail" not found or invalid function name in D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#1 D:\wordpress-6.2.2-vi\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\shop\woocommerce\content-product.php(44): do_action('woocommerce_bef...')
+#3 D:\wordpress-6.2.2-vi\wordpress\wp-includes\template.php(787): require('D:\\wordpress-6....')
+#4 D:\wordpress-6.2.2-vi\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('D:\\wordpress-6....', false)
+#5 D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\shop\woocommerce\archive-product.php(83): wc_get_template_part('content', 'product')
+#6 D:\wordpress-6.2.2-vi\wordpress\wp-includes\template-loader.php(106): include('D:\\wordpress-6....')
+#7 D:\wordpress-6.2.2-vi\wordpress\wp-blog-header.php(19): require_once('D:\\wordpress-6....')
+#8 D:\wordpress-6.2.2-vi\wordpress\index.php(17): require('D:\\wordpress-6....')
+#9 {main}
+  thrown in D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php on line 310
+
+2023-10-31T13:21:25+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "shop_wc_loop_rating_loop_price" not found or invalid function name in D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 D:\wordpress-6.2.2-vi\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\shop\woocommerce\content-product.php(59): do_action('woocommerce_aft...')
+#3 D:\wordpress-6.2.2-vi\wordpress\wp-includes\template.php(787): require('D:\\wordpress-6....')
+#4 D:\wordpress-6.2.2-vi\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('D:\\wordpress-6....', false)
+#5 D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\shop\woocommerce\archive-product.php(83): wc_get_template_part('content', 'product')
+#6 D:\wordpress-6.2.2-vi\wordpress\wp-includes\template-loader.php(106): include('D:\\wordpress-6....')
+#7 D:\wordpress-6.2.2-vi\wordpress\wp-blog-header.php(19): require_once('D:\\wordpress-6....')
+#8 D:\wordpress-6.2.2-vi\wordpress\index.php(17): require('D:\\wordpress-6....')
+#9 {main}
+  thrown in D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php on line 310
+
+2023-10-31T15:15:08+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "shop_wc_output_content_wrapper" not found or invalid function name in D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#1 D:\wordpress-6.2.2-vi\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 D:\wordpress-6.2.2-vi\wordpress\wp-content\themes\website\woocommerce\archive-product.php(30): do_action('woocommerce_bef...')
+#3 D:\wordpress-6.2.2-vi\wordpress\wp-includes\template-loader.php(106): include('D:\\wordpress-6....')
+#4 D:\wordpress-6.2.2-vi\wordpress\wp-blog-header.php(19): require_once('D:\\wordpress-6....')
+#5 D:\wordpress-6.2.2-vi\wordpress\index.php(17): require('D:\\wordpress-6....')
+#6 {main}
+  thrown in D:\wordpress-6.2.2-vi\wordpress\wp-includes\class-wp-hook.php on line 310
+
